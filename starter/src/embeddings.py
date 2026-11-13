@@ -1,4 +1,6 @@
-"""Choose a real embedding provider (API or local) and implement this contract."""
+"""Real OpenRouter embeddings using its OpenAI-compatible API."""
+import os
+from openai import OpenAI
 from typing import Protocol
 
 
@@ -16,14 +18,36 @@ class Embedder(Protocol):
 
 
 class MyEmbedder:
-    """TODO: implement a provider adapter; do not silently fall back to mock vectors."""
+    """OpenRouter adapter; vector dimension is learned from the actual response."""
 
-    def __init__(self, model_name: str) -> None:
+    def __init__(self, model_name: str, api_key: str | None = None) -> None:
         self.model_name = model_name
-        raise NotImplementedError("TODO: initialize real embedder and dimensions")
+        key = api_key or os.getenv("OPENROUTER_API_KEY")
+        if not key:
+            raise RuntimeError("OPENROUTER_API_KEY is missing")
+        self.client = OpenAI(api_key=key, base_url="https://openrouter.ai/api/v1")
+        self.dimensions = 0
 
     def embed_documents(self, texts: list[str]) -> list[list[float]]:
-        raise NotImplementedError("TODO: embed_documents")
+        if not texts:
+            return []
+        response = self.client.embeddings.create(model=self.model_name, input=texts)
+        vectors = [item.embedding for item in response.data]
+        self._validate(vectors, len(texts))
+        return vectors
 
     def embed_query(self, question: str) -> list[float]:
-        raise NotImplementedError("TODO: embed_query")
+        response = self.client.embeddings.create(model=self.model_name, input=[question])
+        vector = response.data[0].embedding
+        self._validate([vector], 1)
+        return vector
+
+    def _validate(self, vectors: list[list[float]], expected: int) -> None:
+        if len(vectors) != expected or not vectors or not vectors[0]:
+            raise RuntimeError("Embedding provider returned an invalid vector response")
+        dimensions = len(vectors[0])
+        if any(len(v) != dimensions for v in vectors):
+            raise RuntimeError("Embedding vectors have inconsistent dimensions")
+        if self.dimensions not in (0, dimensions):
+            raise RuntimeError("Embedding dimension changed during this run")
+        self.dimensions = dimensions

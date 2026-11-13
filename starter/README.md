@@ -50,9 +50,26 @@ Dừng container nhưng giữ dữ liệu:
 docker compose -p day6_student_starter stop
 ```
 
+## DOCX ingestion với OpenRouter (đã triển khai)
+
+Đặt tài liệu tại `starter/data/Capstone Project Document.docx`. Trong `starter/.env`, cấu hình `OPENROUTER_API_KEY`, `EMBEDDING_MODEL` (ID model embedding được OpenRouter hỗ trợ) và `DATABASE_URL`. Không chia sẻ/commit file `.env`.
+
+```powershell
+cd starter
+..\.venv\Scripts\python.exe -m pip install -r requirements.txt
+docker compose -p day6_student_starter up -d --wait
+..\.venv\Scripts\python.exe -m src.run
+..\.venv\Scripts\python.exe -m src.run --query "What does the project investigate?"
+..\.venv\Scripts\python.exe -m src.run --query "What does the project investigate?" --filter document_type=capstone_project
+```
+
+Pipeline: `load_docx` trích xuất đoạn văn và hàng bảng, chuẩn hóa Unicode/whitespace, đồng thời gắn chỉ số đoạn/hàng; `by_paragraph` tạo chunk giữ nguyên văn bản ngắn (đoạn dài được chia tối đa 900 ký tự); `MyEmbedder` gọi endpoint embedding thật của OpenRouter và xác định số chiều từ response; `PgVectorStore` lưu chunk/vector/metadata trong PostgreSQL + pgvector. Truy vấn dùng cosine distance; filter metadata áp dụng trong SQL trước khi xếp hạng. Schema và strategy có phiên bản để có thể nạp lại mà không giữ chunk cũ.
+
+Nếu model/provider hoặc database lỗi, lệnh dừng và báo lỗi; không có fallback vector giả. `page` trong contract cũ được dùng làm vị trí nguồn: paragraph index hoặc mã hàng bảng; metadata giải thích loại và chỉ số vị trí.
+
 ## 2. Chọn embedding model
 
-Điền key tương ứng trong `.env` nếu dùng OpenRouter, OpenAI hoặc Gemini; **không commit `.env`**. Model local không cần API key. `requirements.txt` chỉ có dependencies cơ bản: tự cài SDK hoặc thư viện local phù hợp với model bạn chọn và ghi lại version/lệnh cài trong báo cáo. Ghi tên model và số chiều; dùng cùng model cho toàn bộ chiến lược và vector query tương thích vector document.
+Điền OpenRouter key và model embedding trong `.env`; **không commit `.env`**. Số chiều được lấy từ response thật, không cấu hình thủքով.
 
 ## 3. Hoàn thiện pipeline
 

@@ -1,0 +1,35 @@
+{
+  "manifest_version": 1,
+  "generated_at": "2026-11-13",
+  "notes": [
+    "Rights information is based on the student's statement that this completed capstone project may be made public.",
+    "Public availability does not by itself establish a specific open license or permission to redistribute third-party content included in the document.",
+    "The document's stated date is April 2026; the student reported completion in May. Confirm the exact completion date if needed."
+  ],
+  "documents": [
+    {
+      "source_id": "capstone-project-document",
+      "title": "Capstone Project Document",
+      "source_path_or_url": "data/Capstone Project Document.docx",
+      "file_type": "docx",
+      "license_or_permission": "Student reports that this completed capstone project may be made public; no specific license is stated in the document. Review third-party material and institutional rules before redistribution.",
+      "accessed_at": "2026-11-13",
+      "document_date_as_stated": "April 2026",
+      "completion_date_as_reported": "May 2026",
+      "content_units": {
+        "type": "docx_paragraphs",
+        "count": 271,
+        "total_characters_extracted": 48636,
+        "position_scheme": "1-based non-empty paragraph index in document order; preserve paragraph index in extraction and chunk metadata",
+        "page_count": null,
+        "page_count_note": "DOCX pagination depends on rendering software and page settings; no stable page count recorded. Export to PDF with fixed layout if physical page numbers are required."
+      },
+      "extraction_note": "Initial inventory extracted non-empty paragraph text from word/document.xml. Tables, headers, footers, images, and text embedded in figures have not been verified as extracted.",
+      "metadata_suggestions": {
+        "document_type": "capstone_project",
+        "language": "English",
+        "topic": "Parameter-efficient fine-tuning for Vietnamese secondary education tutoring"
+      }
+    }
+  ]
+}
