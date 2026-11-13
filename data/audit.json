@@ -1,0 +1,167 @@
+[
+  {
+    "id": "q01",
+    "gold_position": 33,
+    "chapter": 1,
+    "section": "1.2",
+    "paragraph_text": "Commercial AI tutoring solutions typically require substantial ongoing subscription costs—ranging from $1,200 to $5,000 monthly for institutional deployment—creating financial barriers for many Vietnamese schools. This research addresses these interconnected challenges by investigating how fine-tuning techniques can be applied to develop an effective, cost-efficient AI learning support system specifically designed for Vietnamese flipped classroom education."
+  },
+  {
+    "id": "q02",
+    "gold_position": 124,
+    "chapter": 4,
+    "section": "4.2",
+    "paragraph_text": "The final curated training dataset comprises 746  student-AI conversation samples after the eight-step quality pipeline. The dataset is partitioned into 726 training samples and 20 held-out test samples. Average conversation length is 6.3 turns, with a mean of approximately 187 tokens per assistant response."
+  },
+  {
+    "id": "q03",
+    "gold_position": 104,
+    "chapter": 3,
+    "section": "3.3",
+    "paragraph_text": "The study applies QLoRA fine-tuning to Qwen3-0.6B as the primary base model. While LLaMA 3, Mistral, and larger Qwen variants were considered during the planning phase, setup testing confirmed that Qwen3-0.6B provides the optimal compatibility with the available hardware constraints. LoRA hyperparameters explored include rank (r = 8, 16, 32), alpha scaling factors, and target module selection. All training is conducted using the Unsloth optimization library and Hugging Face PEFT on Google Colab with NVIDIA T4 GPU (16GB VRAM). Multiple training configurations are evaluated, with model checkpoints selected based on validation perplexity."
+  },
+  {
+    "id": "q04",
+    "gold_position": 120,
+    "chapter": 4,
+    "section": "4.1",
+    "paragraph_text": "This chapter presents the experimental setup, results, and analysis from the model fine-tuning and system evaluation phases of the research. The experiments were conducted in three stages: (1) baseline model evaluation to establish performance benchmarks; (2) comparative fine-tuning experiments varying base models, LoRA configurations, and data quality levels; and (3) end-to-end system evaluation assessing the integrated web-based chatbot."
+  },
+  {
+    "id": "q05",
+    "gold_position": 131,
+    "chapter": 4,
+    "section": "4.3",
+    "paragraph_text": "The most pronounced improvements were observed in pedagogical dimensions. The proportion of responses classified as guided inquiry (scaffolded, questioning, or step-by-step) increased from an average of 12% in baseline models to 68% in fine-tuned models (high-quality data configuration). Direct answer provision decreased from 71% to 19% on average. Vietnamese language quality scores improved by 34% on average, with particular gains in subject-specific terminology accuracy."
+  },
+  {
+    "id": "q06",
+    "gold_position": 133,
+    "chapter": 4,
+    "section": "4.3",
+    "paragraph_text": "A controlled experiment comparing models fine-tuned on high-quality, medium-quality, and unfiltered data confirmed data quality as the dominant performance determinant. The high-quality data model outperformed the unfiltered data model by 41% on pedagogical quality metrics despite using only 62% of the samples—demonstrating the LIMA hypothesis in an educational context."
+  },
+  {
+    "id": "q07",
+    "gold_position": 92,
+    "chapter": 2,
+    "section": "2.6",
+    "paragraph_text": "Despite these foundations, five critical gaps are identified: (1) limited Vietnamese-specific educational AI research for K-12 contexts; (2) insufficient understanding of data quality management for educational fine-tuning; (3) lack of AI solutions specifically designed for flipped classroom support; (4) limited demonstration of accessible implementation in resource-constrained contexts; and (5) absence of integrated frameworks combining data management, fine-tuning, and deployment."
+  },
+  {
+    "id": "q08",
+    "gold_position": 106,
+    "chapter": 3,
+    "section": "3.4",
+    "paragraph_text": "The web-based learning support system consists of two primary functional modules. The Administrative Interface provides data management tools for uploading, cleaning, and quality-evaluating training data; a no-code fine-tuning pipeline enabling model training without programming expertise; and post-fine-tuning model evaluation dashboards. The Student Interface provides a conversational AI chatbot accessible via web browser, designed for use during independent study phases of flipped classroom instruction."
+  },
+  {
+    "id": "q09",
+    "gold_position": 107,
+    "chapter": 3,
+    "section": "3.4",
+    "paragraph_text": "The system backend integrates the fine-tuned model via API, with conversation history management enabling multi-turn interactions. The frontend is developed using React and TypeScript, with a Node.js backend. The system is deployable on cloud infrastructure using standard web hosting services."
+  },
+  {
+    "id": "q10",
+    "gold_position": 110,
+    "chapter": 3,
+    "section": "3.5",
+    "paragraph_text": "Evaluation is conducted comparatively across baseline models (non-fine-tuned), fine-tuned variants with different data configurations, and fine-tuned variants with different hyperparameter settings. An LLM-as-judge approach using Claude provides scalable pedagogical quality assessment, validated against human expert ratings."
+  },
+  {
+    "id": "q11",
+    "gold_position": 111,
+    "chapter": 3,
+    "section": "3.5",
+    "paragraph_text": "Four dimensions: Accuracy (factual correctness), Clarity (readability), Socratic Logic (guided inquiry depth), and Encouragement (tone and motivation). Each dimension is rated on a 5.0-point scale. The composite score is computed as the arithmetic mean of all four dimensions. Full rubric definitions are provided in Appendix C.",
+    "paragraphs_with_similar_content": [
+      129
+    ],
+    "similar_paragraphs_removed_by_filter": [
+      129
+    ],
+    "paragraphs_matching_filter": 4
+  },
+  {
+    "id": "q12",
+    "gold_position": 115,
+    "chapter": 3,
+    "section": "3.6",
+    "paragraph_text": "Computational constraints prevented experimentation with larger model variants (13B–70B parameters).",
+    "paragraphs_with_similar_content": [
+      54,
+      163
+    ],
+    "similar_paragraphs_removed_by_filter": [
+      54,
+      163
+    ],
+    "paragraphs_matching_filter": 5
+  },
+  {
+    "id": "q13",
+    "gold_position": 175,
+    "chapter": 6,
+    "section": "6.2",
+    "paragraph_text": "Incorporating Direct Preference Optimization (DPO) or RLHF using student and educator feedback as reward signals to further refine pedagogical alignment beyond what SFT alone achieves.",
+    "paragraphs_with_similar_content": [
+      38
+    ],
+    "similar_paragraphs_removed_by_filter": [
+      38
+    ],
+    "paragraphs_matching_filter": 25
+  },
+  {
+    "id": "q14",
+    "gold_position": 245,
+    "chapter": "appendices",
+    "section": "Appendix B",
+    "paragraph_text": "- Fine-tuning Method: QLoRA (4-bit NF4 quantization)"
+  },
+  {
+    "id": "q15",
+    "gold_position": 126,
+    "chapter": 4,
+    "section": "4.2",
+    "paragraph_text": "Fine-tuning experiments were conducted on Qwen3-0.6B as the primary base model, across multiple QLoRA configurations. While the original research design proposed comparative evaluation across LLaMA 3, Mistral, and Qwen architectures, setup testing revealed that only Qwen3-0.6B was fully compatible with the NVIDIA T4 GPU (16GB VRAM) constraint within the project timeline. Complete fine-tuning runs with systematic metric evaluation were therefore conducted on Qwen3-0.6B exclusively. The evaluation compares multiple QLoRA configurations of Qwen3-0.6B against the Qwen3-0.6B zero-shot baseline, as detailed in Sections 4.3 and 4.5."
+  },
+  {
+    "id": "q16",
+    "gold_position": 65,
+    "chapter": 2,
+    "section": "2.1",
+    "paragraph_text": "Low-Rank Adaptation (LoRA) is the most successful PEFT approach. It freezes pre-trained weights and injects trainable low-rank matrices into each layer, reducing trainable parameters by up to 10,000x while maintaining quality. QLoRA extends LoRA by quantizing frozen weights to 4-bit precision, enabling fine-tuning of very large models on consumer GPUs."
+  },
+  {
+    "id": "q17",
+    "gold_position": 129,
+    "chapter": 4,
+    "section": "4.3",
+    "paragraph_text": "All fine-tuned models demonstrated significant perplexity reduction compared to baselines. The fine-tuned Qwen3-0.6B model demonstrated clear improvement across evaluated dimensions compared to its zero-shot baseline. VRAM consumption during training was approximately 5.6GB out of 14.7GB available (38% utilization), confirming the hardware efficiency of the QLoRA approach on NVIDIA T4. Automated pedagogical evaluation using the AI Judge framework yielded an overall average score of 4.75/5.0, with Clarity and Encouragement dimensions achieving perfect scores (5.0/5.0) and Socratic Logic and Accuracy scoring 4.5/5.0. Detailed metric breakdowns are presented in Table 4.X."
+  },
+  {
+    "id": "q18",
+    "gold_position": 184,
+    "chapter": 6,
+    "section": "6.2",
+    "paragraph_text": "Integration with national Vietnamese educational platforms and LMS systems (Moodle, Canvas) to increase adoption and sustainability.",
+    "paragraphs_matching_filter": 25,
+    "note": "Replaced the previous test item because DOCX rubric formatting caused unstable appendix section metadata. This revised item has not been run through retrieval evaluation; the test split is no longer an untouched holdout."
+  },
+  {
+    "id": "q19",
+    "gold_position": 184,
+    "chapter": 6,
+    "section": "6.2",
+    "paragraph_text": "Integration with national Vietnamese educational platforms and LMS systems (Moodle, Canvas) to increase adoption and sustainability."
+  },
+  {
+    "id": "q20",
+    "gold_position": 141,
+    "chapter": 4,
+    "section": "4.6",
+    "paragraph_text": "The results confirm the core technical feasibility of the proposed approach: parameter-efficient fine-tuning on modest Vietnamese educational datasets can produce meaningfully improved AI tutoring behavior, deployable within academic resource constraints. The data quality findings have direct practical implications for institutions seeking to develop similar systems, suggesting that investment in expert data curation yields greater returns than investment in data quantity or compute scale."
+  }
+]

@@ -1,0 +1,121 @@
+﻿audit_type,strategy,source_position,question_id,rank,chunk_id,score,metadata_complete_correct,filter_required,filter_compliant,reason
+coherence,fixed-v1,1,,,de42e62707eeb1eb7def74d299521c94c1714598e248bc292fe1cd452bd359ad,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,paragraph-v1,1,,,de42e62707eeb1eb7def74d299521c94c1714598e248bc292fe1cd452bd359ad,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,paragraph-filter-v1,1,,,de42e62707eeb1eb7def74d299521c94c1714598e248bc292fe1cd452bd359ad,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,fixed-v1,2,,,4e22c6e302766c4064e4d731455c6f2ce3cba0260f3c4cc276d70ec0f9810ea6,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,paragraph-v1,2,,,4e22c6e302766c4064e4d731455c6f2ce3cba0260f3c4cc276d70ec0f9810ea6,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,paragraph-filter-v1,2,,,4e22c6e302766c4064e4d731455c6f2ce3cba0260f3c4cc276d70ec0f9810ea6,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,fixed-v1,3,,,15b4a694fe1487b0552037158ab726b44bd275921c48859ccf455d3da09afa71,1,,,,"Đoạn nguồn dài hơn cửa sổ; chunk này chỉ giữ phần đầu, ngữ cảnh/ý còn ở chunk kế."
+coherence,paragraph-v1,3,,,6ce223bc6f69162903af057ec9d3a8fe8a93e0c312c2dadbd1bc93bff89414b4,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,paragraph-filter-v1,3,,,6ce223bc6f69162903af057ec9d3a8fe8a93e0c312c2dadbd1bc93bff89414b4,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,fixed-v1,4,,,8599f052ff21e821e973849af9eff2a3ac2dbd97a2dc85e1599e7d55e3ec9106,1,,,,"Đoạn nguồn dài hơn cửa sổ; chunk này chỉ giữ phần đầu, ngữ cảnh/ý còn ở chunk kế."
+coherence,paragraph-v1,4,,,63a04d46893f00a7d11abb673812179dcb97accb1c9b6896eb25ead02bc05f4e,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,paragraph-filter-v1,4,,,63a04d46893f00a7d11abb673812179dcb97accb1c9b6896eb25ead02bc05f4e,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,fixed-v1,5,,,7b936545e8eb79a55bc2fee24d0aa1d59f0daae8037421f528aa1cd981c256bd,1,,,,"Đoạn nguồn dài hơn cửa sổ; chunk này chỉ giữ phần đầu, ngữ cảnh/ý còn ở chunk kế."
+coherence,paragraph-v1,5,,,cab33fd87877f8b488b9378e77ca640443102ebd9488fcc1bb810ed0bc760a0b,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,paragraph-filter-v1,5,,,cab33fd87877f8b488b9378e77ca640443102ebd9488fcc1bb810ed0bc760a0b,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,fixed-v1,6,,,bb32c3328fd45e0204316d5b18554ea627d078000977f801f0630b1b4c3dbcd2,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,paragraph-v1,6,,,bb32c3328fd45e0204316d5b18554ea627d078000977f801f0630b1b4c3dbcd2,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,paragraph-filter-v1,6,,,bb32c3328fd45e0204316d5b18554ea627d078000977f801f0630b1b4c3dbcd2,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,fixed-v1,7,,,2c6da757f430f9a332a86952de369704906875d036a7c80e092dc7e434f8c0fa,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,paragraph-v1,7,,,2c6da757f430f9a332a86952de369704906875d036a7c80e092dc7e434f8c0fa,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,paragraph-filter-v1,7,,,2c6da757f430f9a332a86952de369704906875d036a7c80e092dc7e434f8c0fa,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,fixed-v1,8,,,4b1d93bf7eed914a31072e93df2084aae78c1cdf79fdf6c2618e858ebc6850ad,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,paragraph-v1,8,,,4b1d93bf7eed914a31072e93df2084aae78c1cdf79fdf6c2618e858ebc6850ad,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,paragraph-filter-v1,8,,,4b1d93bf7eed914a31072e93df2084aae78c1cdf79fdf6c2618e858ebc6850ad,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,fixed-v1,9,,,973a3168436297751917c51290bd15d3a641c5408ee0ab0f19d09fab98b329c9,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,paragraph-v1,9,,,973a3168436297751917c51290bd15d3a641c5408ee0ab0f19d09fab98b329c9,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,paragraph-filter-v1,9,,,973a3168436297751917c51290bd15d3a641c5408ee0ab0f19d09fab98b329c9,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,fixed-v1,10,,,3b43a17c2c2dc329c8680a814345b26dd201cd208ccd23cfbd558b05eabe51ef,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,paragraph-v1,10,,,3b43a17c2c2dc329c8680a814345b26dd201cd208ccd23cfbd558b05eabe51ef,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+coherence,paragraph-filter-v1,10,,,3b43a17c2c2dc329c8680a814345b26dd201cd208ccd23cfbd558b05eabe51ef,2,,,,"Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+metadata,fixed-v1,,q16,1,72e9e7413587dec9f182fa65dfd6c0272563488dfac44757d9dc5f4a0efcdbb6,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,fixed-v1,,q16,2,fa4aaa644e2db8275d85c9c862f683a124d6d25e4c9278a56573f77153afd324,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,fixed-v1,,q16,3,431f71e4b019b60746423cf3960659348c50e763a34b44a78f8943444febd53d,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,fixed-v1,,q17,1,883464f774e3b32bd4101ad75b4ec51d96dbf6c64b3171612950dd4befca99bf,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,fixed-v1,,q17,2,393444da13df4eb851d7b01049dcc609dd869c325317bdb9618cd086c3eb149d,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,fixed-v1,,q17,3,581a0b5154802c6a784262ac8088ca9a97e94719806d7f214e4e430c78a509c8,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,fixed-v1,,q18,1,19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,fixed-v1,,q18,2,8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,fixed-v1,,q18,3,6565ae11a2aa268b97582d7be5cd300565c99087ad003f2920264ac8e0f1a16f,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,fixed-v1,,q19,1,19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,fixed-v1,,q19,2,8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,fixed-v1,,q19,3,5b5640774bec06eef72ffa05fb179fb982d4324a8897cb094896118f3a438a79,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,fixed-v1,,q20,1,4afcf740268ab16f5683cbd40fa0e6274a3600646f84d211ea19bc4cae911f12,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,fixed-v1,,q20,2,2b1bad91ea2f27de2eb531c22df5a943e79aae98a0117eff3f290f1abdf94075,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,fixed-v1,,q20,3,4f8b42e4cf6cf80bc1d9a27467eaabc0653a0ce14e86c262fd46f9955746a953,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-v1,,q16,1,72e9e7413587dec9f182fa65dfd6c0272563488dfac44757d9dc5f4a0efcdbb6,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-v1,,q16,2,fa4aaa644e2db8275d85c9c862f683a124d6d25e4c9278a56573f77153afd324,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-v1,,q16,3,431f71e4b019b60746423cf3960659348c50e763a34b44a78f8943444febd53d,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-v1,,q17,1,883464f774e3b32bd4101ad75b4ec51d96dbf6c64b3171612950dd4befca99bf,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-v1,,q17,2,1ae29a5ff6f89dd584179219a14f37acb91dc38ea27a8947b2af8d252bf85330,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-v1,,q17,3,393444da13df4eb851d7b01049dcc609dd869c325317bdb9618cd086c3eb149d,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-v1,,q18,1,19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-v1,,q18,2,8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-v1,,q18,3,462b7f2d655c105b835c1a51a1dd30cd86a05b38e9d725f9c66c490d3577edff,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-v1,,q19,1,19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-v1,,q19,2,8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-v1,,q19,3,5b5640774bec06eef72ffa05fb179fb982d4324a8897cb094896118f3a438a79,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-v1,,q20,1,2b1bad91ea2f27de2eb531c22df5a943e79aae98a0117eff3f290f1abdf94075,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-v1,,q20,2,4f8b42e4cf6cf80bc1d9a27467eaabc0653a0ce14e86c262fd46f9955746a953,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-v1,,q20,3,5c21d75af9fe14e7e5469d887a3ba96facad559a121038af3def66575a59c877,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-filter-v1,,q16,1,72e9e7413587dec9f182fa65dfd6c0272563488dfac44757d9dc5f4a0efcdbb6,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-filter-v1,,q16,2,fa4aaa644e2db8275d85c9c862f683a124d6d25e4c9278a56573f77153afd324,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-filter-v1,,q16,3,431f71e4b019b60746423cf3960659348c50e763a34b44a78f8943444febd53d,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-filter-v1,,q17,1,883464f774e3b32bd4101ad75b4ec51d96dbf6c64b3171612950dd4befca99bf,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-filter-v1,,q17,2,1ae29a5ff6f89dd584179219a14f37acb91dc38ea27a8947b2af8d252bf85330,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-filter-v1,,q17,3,393444da13df4eb851d7b01049dcc609dd869c325317bdb9618cd086c3eb149d,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-filter-v1,,q18,1,19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b,,True,True,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-filter-v1,,q18,2,462b7f2d655c105b835c1a51a1dd30cd86a05b38e9d725f9c66c490d3577edff,,True,True,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-filter-v1,,q18,3,ba8d0b598a0686f0ec054f62819032d6b92aa8e807ba792fbd7e1ba4da1c9cb4,,True,True,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-filter-v1,,q19,1,19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-filter-v1,,q19,2,8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-filter-v1,,q19,3,5b5640774bec06eef72ffa05fb179fb982d4324a8897cb094896118f3a438a79,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-filter-v1,,q20,1,2b1bad91ea2f27de2eb531c22df5a943e79aae98a0117eff3f290f1abdf94075,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-filter-v1,,q20,2,4f8b42e4cf6cf80bc1d9a27467eaabc0653a0ce14e86c262fd46f9955746a953,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+metadata,paragraph-filter-v1,,q20,3,5c21d75af9fe14e7e5469d887a3ba96facad559a121038af3def66575a59c877,,True,False,True,Source/document and paragraph/row position checked against trace metadata.
+grounding,fixed-v1,,q16,1,72e9e7413587dec9f182fa65dfd6c0272563488dfac44757d9dc5f4a0efcdbb6,2,,,,Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.
+grounding,fixed-v1,,q16,2,fa4aaa644e2db8275d85c9c862f683a124d6d25e4c9278a56573f77153afd324,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,fixed-v1,,q16,3,431f71e4b019b60746423cf3960659348c50e763a34b44a78f8943444febd53d,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,fixed-v1,,q17,1,883464f774e3b32bd4101ad75b4ec51d96dbf6c64b3171612950dd4befca99bf,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,fixed-v1,,q17,2,393444da13df4eb851d7b01049dcc609dd869c325317bdb9618cd086c3eb149d,1,,,,Có chủ đề liên quan nhưng không đủ bằng chứng cho câu hỏi.
+grounding,fixed-v1,,q17,3,581a0b5154802c6a784262ac8088ca9a97e94719806d7f214e4e430c78a509c8,1,,,,Cùng vị trí gold hoặc nội dung liên quan nhưng chưa đủ evidence gold.
+grounding,fixed-v1,,q18,1,19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b,2,,,,Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.
+grounding,fixed-v1,,q18,2,8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,fixed-v1,,q18,3,6565ae11a2aa268b97582d7be5cd300565c99087ad003f2920264ac8e0f1a16f,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,fixed-v1,,q19,1,19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b,2,,,,Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.
+grounding,fixed-v1,,q19,2,8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,fixed-v1,,q19,3,5b5640774bec06eef72ffa05fb179fb982d4324a8897cb094896118f3a438a79,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,fixed-v1,,q20,1,4afcf740268ab16f5683cbd40fa0e6274a3600646f84d211ea19bc4cae911f12,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,fixed-v1,,q20,2,2b1bad91ea2f27de2eb531c22df5a943e79aae98a0117eff3f290f1abdf94075,2,,,,Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.
+grounding,fixed-v1,,q20,3,4f8b42e4cf6cf80bc1d9a27467eaabc0653a0ce14e86c262fd46f9955746a953,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,paragraph-v1,,q16,1,72e9e7413587dec9f182fa65dfd6c0272563488dfac44757d9dc5f4a0efcdbb6,2,,,,Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.
+grounding,paragraph-v1,,q16,2,fa4aaa644e2db8275d85c9c862f683a124d6d25e4c9278a56573f77153afd324,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,paragraph-v1,,q16,3,431f71e4b019b60746423cf3960659348c50e763a34b44a78f8943444febd53d,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,paragraph-v1,,q17,1,883464f774e3b32bd4101ad75b4ec51d96dbf6c64b3171612950dd4befca99bf,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,paragraph-v1,,q17,2,1ae29a5ff6f89dd584179219a14f37acb91dc38ea27a8947b2af8d252bf85330,2,,,,Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.
+grounding,paragraph-v1,,q17,3,393444da13df4eb851d7b01049dcc609dd869c325317bdb9618cd086c3eb149d,1,,,,Có chủ đề liên quan nhưng không đủ bằng chứng cho câu hỏi.
+grounding,paragraph-v1,,q18,1,19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b,2,,,,Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.
+grounding,paragraph-v1,,q18,2,8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,paragraph-v1,,q18,3,462b7f2d655c105b835c1a51a1dd30cd86a05b38e9d725f9c66c490d3577edff,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,paragraph-v1,,q19,1,19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b,2,,,,Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.
+grounding,paragraph-v1,,q19,2,8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,paragraph-v1,,q19,3,5b5640774bec06eef72ffa05fb179fb982d4324a8897cb094896118f3a438a79,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,paragraph-v1,,q20,1,2b1bad91ea2f27de2eb531c22df5a943e79aae98a0117eff3f290f1abdf94075,2,,,,Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.
+grounding,paragraph-v1,,q20,2,4f8b42e4cf6cf80bc1d9a27467eaabc0653a0ce14e86c262fd46f9955746a953,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,paragraph-v1,,q20,3,5c21d75af9fe14e7e5469d887a3ba96facad559a121038af3def66575a59c877,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,paragraph-filter-v1,,q16,1,72e9e7413587dec9f182fa65dfd6c0272563488dfac44757d9dc5f4a0efcdbb6,2,,,,Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.
+grounding,paragraph-filter-v1,,q16,2,fa4aaa644e2db8275d85c9c862f683a124d6d25e4c9278a56573f77153afd324,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,paragraph-filter-v1,,q16,3,431f71e4b019b60746423cf3960659348c50e763a34b44a78f8943444febd53d,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,paragraph-filter-v1,,q17,1,883464f774e3b32bd4101ad75b4ec51d96dbf6c64b3171612950dd4befca99bf,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,paragraph-filter-v1,,q17,2,1ae29a5ff6f89dd584179219a14f37acb91dc38ea27a8947b2af8d252bf85330,2,,,,Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.
+grounding,paragraph-filter-v1,,q17,3,393444da13df4eb851d7b01049dcc609dd869c325317bdb9618cd086c3eb149d,1,,,,Có chủ đề liên quan nhưng không đủ bằng chứng cho câu hỏi.
+grounding,paragraph-filter-v1,,q18,1,19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b,2,,,,Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.
+grounding,paragraph-filter-v1,,q18,2,462b7f2d655c105b835c1a51a1dd30cd86a05b38e9d725f9c66c490d3577edff,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,paragraph-filter-v1,,q18,3,ba8d0b598a0686f0ec054f62819032d6b92aa8e807ba792fbd7e1ba4da1c9cb4,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,paragraph-filter-v1,,q19,1,19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b,2,,,,Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.
+grounding,paragraph-filter-v1,,q19,2,8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,paragraph-filter-v1,,q19,3,5b5640774bec06eef72ffa05fb179fb982d4324a8897cb094896118f3a438a79,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,paragraph-filter-v1,,q20,1,2b1bad91ea2f27de2eb531c22df5a943e79aae98a0117eff3f290f1abdf94075,2,,,,Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.
+grounding,paragraph-filter-v1,,q20,2,4f8b42e4cf6cf80bc1d9a27467eaabc0653a0ce14e86c262fd46f9955746a953,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.
+grounding,paragraph-filter-v1,,q20,3,5c21d75af9fe14e7e5469d887a3ba96facad559a121038af3def66575a59c877,0,,,,Không thấy evidence đủ liên quan để hỗ trợ đáp án.

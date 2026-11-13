@@ -1,0 +1,3830 @@
+[
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q01",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "b4010a7c2a0aa1a33c82950259f956aa4df35a1e280a8bbd8f51a9e9278d9738",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 33,
+        "content": "Commercial AI tutoring solutions typically require substantial ongoing subscription costs—ranging from $1,200 to $5,000 monthly for institutional deployment—creating financial barriers for many Vietnamese schools. This research addresses these interconnected challenges by investigating how fine-tuning techniques can be applied to develop an effective, cost-efficient AI learning support system specifically designed for Vietnamese flipped classroom education.",
+        "metadata": {
+          "chapter": 1,
+          "section": "1.2",
+          "position_end": 461,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 33,
+          "docx_paragraph_index": 40
+        },
+        "cosine_similarity": 0.5978536126439152
+      },
+      {
+        "chunk_id": "1492fd8323fd2f21f4f69ecac74e993c8f493a373a97a31229242e0b0dd11576",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 155,
+        "content": "For students: the system provides accessible, 24/7 AI tutoring during independent study, fostering guided learning rather than passive answer consumption. For educational institutions: the research demonstrates a cost-effective pathway to deploying AI tutoring systems without expensive commercial platforms. For flipped classroom implementation: the system directly addresses one of the most persistent challenges—student under-preparation—by providing reliable on-demand tutoring that strengthens p",
+        "metadata": {
+          "chapter": 5,
+          "section": "5.5",
+          "position_end": 500,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 155,
+          "docx_paragraph_index": 166
+        },
+        "cosine_similarity": 0.5532490344792117
+      },
+      {
+        "chunk_id": "3ea7a4286e6287eb2bc140291de8f0553ad1a60f7d13613e90ec9f88604e7d3b",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 3,
+        "content": "ndependent study. Simultaneously, existing AI tutoring tools are either financially inaccessible to Vietnamese institutions or fail to account for the linguistic and curricular specifics of the Vietnamese educational context.",
+        "metadata": {
+          "chapter": null,
+          "section": "Normal",
+          "position_end": 675,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 450,
+          "paragraph_index": 3,
+          "docx_paragraph_index": 7
+        },
+        "cosine_similarity": 0.49813222862866624
+      }
+    ],
+    "gold_position": 33
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q02",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "ee581607852777ba63bec169c87270b7ed89bc32411e21c71c21043cd52ec117",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 124,
+        "content": "The final curated training dataset comprises 746 student-AI conversation samples after the eight-step quality pipeline. The dataset is partitioned into 726 training samples and 20 held-out test samples. Average conversation length is 6.3 turns, with a mean of approximately 187 tokens per assistant response.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.2.1",
+          "position_end": 308,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 124,
+          "docx_paragraph_index": 134
+        },
+        "cosine_similarity": 0.48581433380757555
+      },
+      {
+        "chunk_id": "6892b5249ea44d79c59141b19275db06a1fac55be14fd063eb93db291d6ffcd5",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 123,
+        "content": "4.2.1 Dataset Composition",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.2.1",
+          "position_end": 25,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 123,
+          "docx_paragraph_index": 133
+        },
+        "cosine_similarity": 0.44630010216233673
+      },
+      {
+        "chunk_id": "9578b6c078d6a67ce4f8a492225e84316fdf7c3f05c10343d683f19a014aa004",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 101,
+        "content": "The training dataset consists of historical student-AI conversational records provided by the research supervisor, supplemented where necessary by structured prompting of existing LLMs to address topic gaps in the original corpus. The combined raw dataset was not in a state suitable for direct fine-tuning use and was therefore processed through the eight-step quality pipeline described in Section 3.2 (and detailed in Chapter 4, Section 4.2.2) prior to use in training.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.2",
+          "position_end": 472,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 101,
+          "docx_paragraph_index": 110
+        },
+        "cosine_similarity": 0.4405779969864645
+      }
+    ],
+    "gold_position": 124
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q03",
+    "split": "dev",
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "hits": [
+      {
+        "chunk_id": "dba1eae538c58e27e6f7995a9cfee8438eff12cfeb96935e1dec51e4a50c366a",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 241,
+        "content": "All fine-tuning experiments were conducted using the following base configuration,",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix B",
+          "position_end": 82,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 241,
+          "docx_paragraph_index": 255
+        },
+        "cosine_similarity": 0.5250711128073277
+      },
+      {
+        "chunk_id": "8a094d72773a47e802209b9996e417ca85ac66cd36dbe8a856ed55d1063da9de",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 121,
+        "content": "All experiments were conducted using cloud GPU environments (T4, 16GB VRAM) via Google Colab. Fine-tuning was implemented using Hugging Face PEFT and Unsloth, with model checkpoints evaluated every 50 training steps. Final model selection was based on the optimal trade-off between perplexity reduction and pedagogical quality improvement.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.1",
+          "position_end": 339,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 121,
+          "docx_paragraph_index": 131
+        },
+        "cosine_similarity": 0.4905170500278473
+      },
+      {
+        "chunk_id": "82ef3bc393780f57e1e77d612cfb0a58572c30b950ed5b94d1b5764b1ac9f634",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 99,
+        "content": "The overall research design follows an iterative development cycle—fine-tuning is conducted across multiple rounds, with evaluation results informing subsequent data curation and training decisions. This iterative approach reflects the empirical nature of LLM fine-tuning research, where initial configurations are progressively refined based on observed model behavior.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.1",
+          "position_end": 370,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 99,
+          "docx_paragraph_index": 108
+        },
+        "cosine_similarity": 0.4884667992591858
+      }
+    ],
+    "gold_position": 104
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q04",
+    "split": "dev",
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "ad38cfcb32c29e66cd1437845331b5e418e4e2baca50d1374419ef32878dce13",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 56,
+        "content": "k. Chapter 4 details experimental results, comparative analysis across models and configurations, and interpretation of findings. Chapter 5 provides a discussion of findings, implications, comparison with prior literature, and limitations. Chapter 6 concludes the thesis with a synthesis of key findings and directions for future research.",
+        "metadata": {
+          "chapter": 1,
+          "section": "1.6",
+          "position_end": 789,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 450,
+          "paragraph_index": 56,
+          "docx_paragraph_index": 63
+        },
+        "cosine_similarity": 0.49090853496041353
+      },
+      {
+        "chunk_id": "db02b2c3e9105b1e568ee0a3d4b2704446574898a4e561c1dd8a20432d8583a2",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 120,
+        "content": "This chapter presents the experimental setup, results, and analysis from the model fine-tuning and system evaluation phases of the research. The experiments were conducted in three stages: (1) baseline model evaluation to establish performance benchmarks; (2) comparative fine-tuning experiments varying base models, LoRA configurations, and data quality levels; and (3) end-to-end system evaluation assessing the integrated web-based chatbot.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.1",
+          "position_end": 443,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 120,
+          "docx_paragraph_index": 130
+        },
+        "cosine_similarity": 0.4787389636039767
+      },
+      {
+        "chunk_id": "b213c86296bbdbd9e929a8cdf58863e3bad1112346234d43a5c9b1544c410bdd",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 127,
+        "content": "4.3 Analysis of Results",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.3",
+          "position_end": 23,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 127,
+          "docx_paragraph_index": 137
+        },
+        "cosine_similarity": 0.4723813815344279
+      }
+    ],
+    "gold_position": 120
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q05",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "5c21d75af9fe14e7e5469d887a3ba96facad559a121038af3def66575a59c877",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 131,
+        "content": "The most pronounced improvements were observed in pedagogical dimensions. The proportion of responses classified as guided inquiry (scaffolded, questioning, or step-by-step) increased from an average of 12% in baseline models to 68% in fine-tuned models (high-quality data configuration). Direct answer provision decreased from 71% to 19% on average. Vietnamese language quality scores improved by 34% on average, with particular gains in subject-specific terminology accuracy.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.3.2",
+          "position_end": 477,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 131,
+          "docx_paragraph_index": 141
+        },
+        "cosine_similarity": 0.7298173469413921
+      },
+      {
+        "chunk_id": "8df9667274ab6fa0698b4f051daaa8365a2edc418cca76f69936df4a56626bb3",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 135,
+        "content": "rior to fine-tuning, the base model consistently provided direct answers to student queries. After fine-tuning, the model exhibited guided scaffolding behavior across evaluated test samples.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.4",
+          "position_end": 640,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 450,
+          "paragraph_index": 135,
+          "docx_paragraph_index": 145
+        },
+        "cosine_similarity": 0.6526153683662415
+      },
+      {
+        "chunk_id": "f72da8d1b9173373c65bedfd63c75583488ef8726f1bbd56d0ad3fdca8eecd5c",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 135,
+        "content": "The consistent pattern of improvement across all three base models—in both technical and pedagogical dimensions—suggests that LoRA fine-tuning reliably adapts general-purpose LLMs to educational interaction patterns when training data explicitly models desired pedagogical behaviors. The fine-tuned model demonstrated a substantial shift from direct-answer behavior toward guided inquiry responses, as assessed by the AI Judge evaluation framework. Prior to fine-tuning, the base model consistently p",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.4",
+          "position_end": 500,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 135,
+          "docx_paragraph_index": 145
+        },
+        "cosine_similarity": 0.6353801110160295
+      }
+    ],
+    "gold_position": 131
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q06",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "589684df727c8cd974a8b2ca4a6246fb2329c4b505e3072090d6ff8da98e7a32",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 133,
+        "content": "A controlled experiment comparing models fine-tuned on high-quality, medium-quality, and unfiltered data confirmed data quality as the dominant performance determinant. The high-quality data model outperformed the unfiltered data model by 41% on pedagogical quality metrics despite using only 62% of the samples—demonstrating the LIMA hypothesis in an educational context.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.3.3",
+          "position_end": 372,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 133,
+          "docx_paragraph_index": 143
+        },
+        "cosine_similarity": 0.730400903844899
+      },
+      {
+        "chunk_id": "4f8b42e4cf6cf80bc1d9a27467eaabc0653a0ce14e86c262fd46f9955746a953",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 136,
+        "content": "A qualitative comparison of models trained on curated versus unfiltered data consistently demonstrated that higher data quality produced meaningfully better pedagogical alignment, confirming the data-centric hypothesis central to this study. Quantitative comparison of quality-controlled versus unfiltered configurations is presented in Section 4.3, provides robust empirical support for prioritizing data curation over data quantity in educational fine-tuning pipelines.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.4",
+          "position_end": 471,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 136,
+          "docx_paragraph_index": 146
+        },
+        "cosine_similarity": 0.7204280399510802
+      },
+      {
+        "chunk_id": "5c21d75af9fe14e7e5469d887a3ba96facad559a121038af3def66575a59c877",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 131,
+        "content": "The most pronounced improvements were observed in pedagogical dimensions. The proportion of responses classified as guided inquiry (scaffolded, questioning, or step-by-step) increased from an average of 12% in baseline models to 68% in fine-tuned models (high-quality data configuration). Direct answer provision decreased from 71% to 19% on average. Vietnamese language quality scores improved by 34% on average, with particular gains in subject-specific terminology accuracy.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.3.2",
+          "position_end": 477,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 131,
+          "docx_paragraph_index": 141
+        },
+        "cosine_similarity": 0.6288368548349315
+      }
+    ],
+    "gold_position": 133
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q07",
+    "split": "dev",
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "c43dc8b5a49fd9ee9a18ace43bb27ce89c5ea0001e692531715d38fc8985914c",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 88,
+        "content": "2.6 Fit-Gap Analysis",
+        "metadata": {
+          "chapter": 2,
+          "section": "2.6",
+          "position_end": 20,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 88,
+          "docx_paragraph_index": 96
+        },
+        "cosine_similarity": 0.5968132196907171
+      },
+      {
+        "chunk_id": "6565ae11a2aa268b97582d7be5cd300565c99087ad003f2920264ac8e0f1a16f",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 92,
+        "content": "Despite these foundations, five critical gaps are identified: (1) limited Vietnamese-specific educational AI research for K-12 contexts; (2) insufficient understanding of data quality management for educational fine-tuning; (3) lack of AI solutions specifically designed for flipped classroom support; (4) limited demonstration of accessible implementation in resource-constrained contexts; and (5) absence of integrated frameworks combining data management, fine-tuning, and deployment.",
+        "metadata": {
+          "chapter": 2,
+          "section": "2.6",
+          "position_end": 487,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 92,
+          "docx_paragraph_index": 100
+        },
+        "cosine_similarity": 0.5896814572431436
+      },
+      {
+        "chunk_id": "7df2d7013b8f1c055bc56447065476b75643320ee52fe32f5cc08c210843841f",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 91,
+        "content": "What the Literature Does Not Adequately Address (Gap)",
+        "metadata": {
+          "chapter": 2,
+          "section": "2.6",
+          "position_end": 53,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 91,
+          "docx_paragraph_index": 99
+        },
+        "cosine_similarity": 0.5860668770114716
+      }
+    ],
+    "gold_position": 92
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q08",
+    "split": "dev",
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "hits": [
+      {
+        "chunk_id": "156014d2aaff8d2b829962dfd2c623413362df6689300557342fda544b9d8e0d",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 106,
+        "content": "The web-based learning support system consists of two primary functional modules. The Administrative Interface provides data management tools for uploading, cleaning, and quality-evaluating training data; a no-code fine-tuning pipeline enabling model training without programming expertise; and post-fine-tuning model evaluation dashboards. The Student Interface provides a conversational AI chatbot accessible via web browser, designed for use during independent study phases of flipped classroom in",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.4",
+          "position_end": 500,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 106,
+          "docx_paragraph_index": 115
+        },
+        "cosine_similarity": 0.5582616495568055
+      },
+      {
+        "chunk_id": "822391018f1ddd2c036a32440c86ca74b317884f82924978f50c897d43be7d5e",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 171,
+        "content": "The integrated web-based system—combining an administrative interface for data management and no-code fine-tuning, and a student-facing chatbot for flipped classroom support—demonstrates end-to-end feasibility and provides a replicable architecture for similar initiatives. The system directly addresses the critical support gap in flipped classroom implementation: the absence of real-time guidance during home-based independent study, a documented obstacle to effective flipped learning in Vietname",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.1",
+          "position_end": 500,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 171,
+          "docx_paragraph_index": 183
+        },
+        "cosine_similarity": 0.5111491680145264
+      },
+      {
+        "chunk_id": "5080038c97a17dd133d1f5a539869e5b98953e60659d3f7bf751cc41d697b109",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 40,
+        "content": "To design and develop a functional web-based learning support system that integrates the fine-tuned model and provides targeted assistance to students during independent study phases of flipped classroom instruction.",
+        "metadata": {
+          "chapter": 1,
+          "section": "1.3",
+          "position_end": 216,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 40,
+          "docx_paragraph_index": 47
+        },
+        "cosine_similarity": 0.46875667572021484
+      }
+    ],
+    "gold_position": 106
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q09",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "e9c4328b039bab337531479fa619295b88c0963c09ade933b229c6716f200544",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 107,
+        "content": "The system backend integrates the fine-tuned model via API, with conversation history management enabling multi-turn interactions. The frontend is developed using React and TypeScript, with a Node.js backend. The system is deployable on cloud infrastructure using standard web hosting services.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.4",
+          "position_end": 294,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 107,
+          "docx_paragraph_index": 116
+        },
+        "cosine_similarity": 0.464273461276663
+      },
+      {
+        "chunk_id": "958a170527c7f26787c5340d4c434df217a0367289db467182636732b0591647",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 300299,
+        "content": "API | Application Programming Interface",
+        "metadata": {
+          "section": "table",
+          "row_index": 3,
+          "table_index": 3,
+          "position_end": 39,
+          "document_type": "capstone_project",
+          "position_type": "table_row",
+          "position_start": 0
+        },
+        "cosine_similarity": 0.3912261128425626
+      },
+      {
+        "chunk_id": "156014d2aaff8d2b829962dfd2c623413362df6689300557342fda544b9d8e0d",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 106,
+        "content": "The web-based learning support system consists of two primary functional modules. The Administrative Interface provides data management tools for uploading, cleaning, and quality-evaluating training data; a no-code fine-tuning pipeline enabling model training without programming expertise; and post-fine-tuning model evaluation dashboards. The Student Interface provides a conversational AI chatbot accessible via web browser, designed for use during independent study phases of flipped classroom in",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.4",
+          "position_end": 500,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 106,
+          "docx_paragraph_index": 115
+        },
+        "cosine_similarity": 0.38273091963735617
+      }
+    ],
+    "gold_position": 107
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q10",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "393444da13df4eb851d7b01049dcc609dd869c325317bdb9618cd086c3eb149d",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 110,
+        "content": "Evaluation is conducted comparatively across baseline models (non-fine-tuned), fine-tuned variants with different data configurations, and fine-tuned variants with different hyperparameter settings. An LLM-as-judge approach using Claude provides scalable pedagogical quality assessment, validated against human expert ratings.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "position_end": 326,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 110,
+          "docx_paragraph_index": 119
+        },
+        "cosine_similarity": 0.7823678255081232
+      },
+      {
+        "chunk_id": "39ad6e77cc632d1e579d175275dc193f96ca4181e35828b3fea209ce6c5a0e16",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 109,
+        "content": "Model evaluation employs a comprehensive framework combining technical and pedagogical dimensions. Technical metrics include perplexity, BERTScore (semantic similarity), and response length appropriateness. Pedagogical metrics assess guided inquiry frequency (proportion of responses employing questioning or scaffolding rather than direct answers), cognitive level appropriateness, explanation clarity, Vietnamese language quality, and subject-specific accuracy.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "position_end": 463,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 109,
+          "docx_paragraph_index": 118
+        },
+        "cosine_similarity": 0.6418056915038
+      },
+      {
+        "chunk_id": "87185c8389bfd003e15603c6b52cc2852ff4c800ca7ee7faab9902ac31cab4fe",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 4,
+        "content": "ta quality characteristics and fine-tuned model behavior. A comparative evaluation framework assessing both technical language quality metrics (perplexity, BERTScore) and pedagogical appropriateness dimensions (guided inquiry, scaffolding, Socratic questioning) is applied across baseline and fine-tuned model variants.",
+        "metadata": {
+          "chapter": null,
+          "section": "Normal",
+          "position_end": 769,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 450,
+          "paragraph_index": 4,
+          "docx_paragraph_index": 8
+        },
+        "cosine_similarity": 0.6258344427248603
+      }
+    ],
+    "gold_position": 110
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q11",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "b44f70a1d34acfaa721cf3cf14e6fa66f0918e66f2213ac41e050c7b715d71fd",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 111,
+        "content": "Four dimensions: Accuracy (factual correctness), Clarity (readability), Socratic Logic (guided inquiry depth), and Encouragement (tone and motivation). Each dimension is rated on a 5.0-point scale. The composite score is computed as the arithmetic mean of all four dimensions. Full rubric definitions are provided in Appendix C.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "position_end": 328,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 111,
+          "docx_paragraph_index": 120
+        },
+        "cosine_similarity": 0.6184998111575676
+      },
+      {
+        "chunk_id": "1c29afa563e47cf6f043b0ef7c64839ed9945371c9d6eabf29f2acd3f3f8ce4d",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 108,
+        "content": "3.5 Evaluation Framework",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "position_end": 24,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 108,
+          "docx_paragraph_index": 117
+        },
+        "cosine_similarity": 0.58834190929955
+      },
+      {
+        "chunk_id": "78146fd08775234674cbac56c00ebbec1a8e5505a6eefb410e629b901e8affc3",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 250,
+        "content": "to assess model output quality. Each group is scored on a 5.0-point scale.",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix C",
+          "position_end": 74,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 250,
+          "docx_paragraph_index": 265
+        },
+        "cosine_similarity": 0.5396893734017635
+      }
+    ],
+    "gold_position": 111
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q12",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "ae10c3272e4913e85d61a1c0a8b1d45ec9824439797bff1b269f1a8da7b15a71",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 115,
+        "content": "Computational constraints prevented experimentation with larger model variants (13B–70B parameters).",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.6",
+          "position_end": 100,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 115,
+          "docx_paragraph_index": 124
+        },
+        "cosine_similarity": 0.735190749168396
+      },
+      {
+        "chunk_id": "7a50c8171bc266913f97a28737433ad09e1978d7e29ca6973a17c533813815aa",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 163,
+        "content": "Computational constraints prevented experiments with larger model variants.",
+        "metadata": {
+          "chapter": 5,
+          "section": "5.7",
+          "position_end": 75,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 163,
+          "docx_paragraph_index": 174
+        },
+        "cosine_similarity": 0.7321724891662598
+      },
+      {
+        "chunk_id": "9f84910ef6ed7880c117efe36c09144e31e5ccc3fecee2bf9fda89f424bef640",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 54,
+        "content": "Computational constraints limited experimentation with the largest available model variants.",
+        "metadata": {
+          "chapter": 1,
+          "section": "1.5",
+          "position_end": 92,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 54,
+          "docx_paragraph_index": 61
+        },
+        "cosine_similarity": 0.7175367733880063
+      }
+    ],
+    "gold_position": 115
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q13",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "6976ce35b0238fa6181f3d8275403ac690aec86eb6957df7b4c245a831386ac4",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 175,
+        "content": "Incorporating Direct Preference Optimization (DPO) or RLHF using student and educator feedback as reward signals to further refine pedagogical alignment beyond what SFT alone achieves.",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.2",
+          "position_end": 184,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 175,
+          "docx_paragraph_index": 187
+        },
+        "cosine_similarity": 0.6061110966073202
+      },
+      {
+        "chunk_id": "c0bfef95212689f0173fae16b53f58ba966ecdedbe2858b257a5863bfde802ae",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 300313,
+        "content": "RLHF | Reinforcement Learning from Human Feedback",
+        "metadata": {
+          "section": "table",
+          "row_index": 17,
+          "table_index": 3,
+          "position_end": 49,
+          "document_type": "capstone_project",
+          "position_type": "table_row",
+          "position_start": 0
+        },
+        "cosine_similarity": 0.5825576585393766
+      },
+      {
+        "chunk_id": "1194b8697f36f6cb2c1f359360bcae3cb7bc605436932764ca24cc8b143bfea1",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 300302,
+        "content": "DPO | Direct Preference Optimization",
+        "metadata": {
+          "section": "table",
+          "row_index": 6,
+          "table_index": 3,
+          "position_end": 36,
+          "document_type": "capstone_project",
+          "position_type": "table_row",
+          "position_start": 0
+        },
+        "cosine_similarity": 0.5819246671289644
+      }
+    ],
+    "gold_position": 175
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q14",
+    "split": "dev",
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "ca086d7b02d05168cdcd375fa9f6590c6e8eb00b4682dae06fc87a229b4eaf9b",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 240,
+        "content": "Appendix B: Fine-Tuning Configuration Details",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix B",
+          "position_end": 45,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 240,
+          "docx_paragraph_index": 254
+        },
+        "cosine_similarity": 0.6440610713885937
+      },
+      {
+        "chunk_id": "dba1eae538c58e27e6f7995a9cfee8438eff12cfeb96935e1dec51e4a50c366a",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 241,
+        "content": "All fine-tuning experiments were conducted using the following base configuration,",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix B",
+          "position_end": 82,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 241,
+          "docx_paragraph_index": 255
+        },
+        "cosine_similarity": 0.5931897648346705
+      },
+      {
+        "chunk_id": "431f71e4b019b60746423cf3960659348c50e763a34b44a78f8943444febd53d",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 245,
+        "content": "- Fine-tuning Method: QLoRA (4-bit NF4 quantization)",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix B",
+          "position_end": 52,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 245,
+          "docx_paragraph_index": 260
+        },
+        "cosine_similarity": 0.589628208919977
+      }
+    ],
+    "gold_position": 245
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q15",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "35d0842dd1be23a662fb83c50f9305a58cc2929217aa8b39acf07bd6ffc941d1",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 126,
+        "content": "Fine-tuning experiments were conducted on Qwen3-0.6B as the primary base model, across multiple QLoRA configurations. While the original research design proposed comparative evaluation across LLaMA 3, Mistral, and Qwen architectures, setup testing revealed that only Qwen3-0.6B was fully compatible with the NVIDIA T4 GPU (16GB VRAM) constraint within the project timeline. Complete fine-tuning runs with systematic metric evaluation were therefore conducted on Qwen3-0.6B exclusively. The evaluation",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.2.2",
+          "position_end": 500,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 126,
+          "docx_paragraph_index": 136
+        },
+        "cosine_similarity": 0.7868285179138239
+      },
+      {
+        "chunk_id": "2cf5b49a8b0feeb9f5f99be19ee3a52c594e684e3f363a9a0f0095401e9cf87a",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 104,
+        "content": "The study applies QLoRA fine-tuning to Qwen3-0.6B as the primary base model. While LLaMA 3, Mistral, and larger Qwen variants were considered during the planning phase, setup testing confirmed that Qwen3-0.6B provides the optimal compatibility with the available hardware constraints. LoRA hyperparameters explored include rank (r = 8, 16, 32), alpha scaling factors, and target module selection. All training is conducted using the Unsloth optimization library and Hugging Face PEFT on Google Colab ",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "position_end": 500,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 104,
+          "docx_paragraph_index": 113
+        },
+        "cosine_similarity": 0.7136797392987752
+      },
+      {
+        "chunk_id": "8d135e652667f67e3afeed4ab69c4b6a233d937dcfdcb388807e5d9c96d5b964",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 126,
+        "content": "onducted on Qwen3-0.6B exclusively. The evaluation compares multiple QLoRA configurations of Qwen3-0.6B against the Qwen3-0.6B zero-shot baseline, as detailed in Sections 4.3 and 4.5.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.2.2",
+          "position_end": 633,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 450,
+          "paragraph_index": 126,
+          "docx_paragraph_index": 136
+        },
+        "cosine_similarity": 0.6120683319609374
+      }
+    ],
+    "gold_position": 126
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q16",
+    "split": "test",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "72e9e7413587dec9f182fa65dfd6c0272563488dfac44757d9dc5f4a0efcdbb6",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 65,
+        "content": "Low-Rank Adaptation (LoRA) is the most successful PEFT approach. It freezes pre-trained weights and injects trainable low-rank matrices into each layer, reducing trainable parameters by up to 10,000x while maintaining quality. QLoRA extends LoRA by quantizing frozen weights to 4-bit precision, enabling fine-tuning of very large models on consumer GPUs.",
+        "metadata": {
+          "chapter": 2,
+          "section": "2.1.2",
+          "position_end": 354,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 65,
+          "docx_paragraph_index": 73
+        },
+        "cosine_similarity": 0.7130701795900133
+      },
+      {
+        "chunk_id": "fa4aaa644e2db8275d85c9c862f683a124d6d25e4c9278a56573f77153afd324",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 86,
+        "content": "LoRA represents state-of-the-art parameter-efficient fine-tuning. It operates on the insight that weight updates during fine-tuning have low intrinsic rank. QLoRA extends this by storing frozen weights in 4-bit precision, enabling fine-tuning of large models (e.g., 7B–13B parameters) on consumer-grade GPUs such as the NVIDIA T4 (16GB VRAM). The Hugging Face Transformers library, PEFT library, and Unsloth framework together provide the primary technical stack for this research.",
+        "metadata": {
+          "chapter": 2,
+          "section": "2.5",
+          "position_end": 481,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 86,
+          "docx_paragraph_index": 94
+        },
+        "cosine_similarity": 0.687899112701416
+      },
+      {
+        "chunk_id": "431f71e4b019b60746423cf3960659348c50e763a34b44a78f8943444febd53d",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 245,
+        "content": "- Fine-tuning Method: QLoRA (4-bit NF4 quantization)",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix B",
+          "position_end": 52,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 245,
+          "docx_paragraph_index": 260
+        },
+        "cosine_similarity": 0.6325916866903503
+      }
+    ],
+    "gold_position": 65
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q17",
+    "split": "test",
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "hits": [
+      {
+        "chunk_id": "883464f774e3b32bd4101ad75b4ec51d96dbf6c64b3171612950dd4befca99bf",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 249,
+        "content": "The following rubric was applied by both the AI Judge and human reviewers",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix C",
+          "position_end": 73,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 249,
+          "docx_paragraph_index": 264
+        },
+        "cosine_similarity": 0.649199050760387
+      },
+      {
+        "chunk_id": "393444da13df4eb851d7b01049dcc609dd869c325317bdb9618cd086c3eb149d",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 110,
+        "content": "Evaluation is conducted comparatively across baseline models (non-fine-tuned), fine-tuned variants with different data configurations, and fine-tuned variants with different hyperparameter settings. An LLM-as-judge approach using Claude provides scalable pedagogical quality assessment, validated against human expert ratings.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "position_end": 326,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 110,
+          "docx_paragraph_index": 119
+        },
+        "cosine_similarity": 0.6161285867614494
+      },
+      {
+        "chunk_id": "581a0b5154802c6a784262ac8088ca9a97e94719806d7f214e4e430c78a509c8",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 129,
+        "content": "All fine-tuned models demonstrated significant perplexity reduction compared to baselines. The fine-tuned Qwen3-0.6B model demonstrated clear improvement across evaluated dimensions compared to its zero-shot baseline. VRAM consumption during training was approximately 5.6GB out of 14.7GB available (38% utilization), confirming the hardware efficiency of the QLoRA approach on NVIDIA T4. Automated pedagogical evaluation using the AI Judge framework yielded an overall average score of 4.75/5.0, wit",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.3.1",
+          "position_end": 500,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 129,
+          "docx_paragraph_index": 139
+        },
+        "cosine_similarity": 0.5881502523243168
+      }
+    ],
+    "gold_position": 129
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q18",
+    "split": "test",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 184,
+        "content": "Integration with national Vietnamese educational platforms and LMS systems (Moodle, Canvas) to increase adoption and sustainability.",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.2",
+          "position_end": 132,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 184,
+          "docx_paragraph_index": 196
+        },
+        "cosine_similarity": 0.6980409622192433
+      },
+      {
+        "chunk_id": "8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 300307,
+        "content": "LMS | Learning Management System",
+        "metadata": {
+          "section": "table",
+          "row_index": 11,
+          "table_index": 3,
+          "position_end": 32,
+          "document_type": "capstone_project",
+          "position_type": "table_row",
+          "position_start": 0
+        },
+        "cosine_similarity": 0.5352035399907468
+      },
+      {
+        "chunk_id": "6565ae11a2aa268b97582d7be5cd300565c99087ad003f2920264ac8e0f1a16f",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 92,
+        "content": "Despite these foundations, five critical gaps are identified: (1) limited Vietnamese-specific educational AI research for K-12 contexts; (2) insufficient understanding of data quality management for educational fine-tuning; (3) lack of AI solutions specifically designed for flipped classroom support; (4) limited demonstration of accessible implementation in resource-constrained contexts; and (5) absence of integrated frameworks combining data management, fine-tuning, and deployment.",
+        "metadata": {
+          "chapter": 2,
+          "section": "2.6",
+          "position_end": 487,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 92,
+          "docx_paragraph_index": 100
+        },
+        "cosine_similarity": 0.49166092226869185
+      }
+    ],
+    "gold_position": 184
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q19",
+    "split": "test",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 184,
+        "content": "Integration with national Vietnamese educational platforms and LMS systems (Moodle, Canvas) to increase adoption and sustainability.",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.2",
+          "position_end": 132,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 184,
+          "docx_paragraph_index": 196
+        },
+        "cosine_similarity": 0.7092393213964027
+      },
+      {
+        "chunk_id": "8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 300307,
+        "content": "LMS | Learning Management System",
+        "metadata": {
+          "section": "table",
+          "row_index": 11,
+          "table_index": 3,
+          "position_end": 32,
+          "document_type": "capstone_project",
+          "position_type": "table_row",
+          "position_start": 0
+        },
+        "cosine_similarity": 0.5876296549726355
+      },
+      {
+        "chunk_id": "5b5640774bec06eef72ffa05fb179fb982d4324a8897cb094896118f3a438a79",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 49,
+        "content": "This study encompasses the following technical boundaries: subject coverage spans taught in Vietnamese secondary and high school education; the primary language of instruction and interaction is Vietnamese; base models include LLaMA 3, Mistral, and Qwen; fine-tuning methodology focuses on LoRA and related PEFT techniques; the dataset comprises approximately 746 curated student-AI conversation samples; and the web-based platform includes administrative and student-facing functional modules.",
+        "metadata": {
+          "chapter": 1,
+          "section": "1.5",
+          "position_end": 494,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 49,
+          "docx_paragraph_index": 56
+        },
+        "cosine_similarity": 0.4606769453268753
+      }
+    ],
+    "gold_position": 184
+  },
+  {
+    "strategy": "fixed-v1",
+    "question_id": "q20",
+    "split": "test",
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "4afcf740268ab16f5683cbd40fa0e6274a3600646f84d211ea19bc4cae911f12",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 170,
+        "content": "ional settings, providing practical guidance for future projects: invest in data curation over data quantity.",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.1",
+          "position_end": 559,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 450,
+          "paragraph_index": 170,
+          "docx_paragraph_index": 182
+        },
+        "cosine_similarity": 0.597948325047223
+      },
+      {
+        "chunk_id": "2b1bad91ea2f27de2eb531c22df5a943e79aae98a0117eff3f290f1abdf94075",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 141,
+        "content": "The results confirm the core technical feasibility of the proposed approach: parameter-efficient fine-tuning on modest Vietnamese educational datasets can produce meaningfully improved AI tutoring behavior, deployable within academic resource constraints. The data quality findings have direct practical implications for institutions seeking to develop similar systems, suggesting that investment in expert data curation yields greater returns than investment in data quantity or compute scale.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.6",
+          "position_end": 494,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 141,
+          "docx_paragraph_index": 151
+        },
+        "cosine_similarity": 0.5306249151379211
+      },
+      {
+        "chunk_id": "4f8b42e4cf6cf80bc1d9a27467eaabc0653a0ce14e86c262fd46f9955746a953",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 136,
+        "content": "A qualitative comparison of models trained on curated versus unfiltered data consistently demonstrated that higher data quality produced meaningfully better pedagogical alignment, confirming the data-centric hypothesis central to this study. Quantitative comparison of quality-controlled versus unfiltered configurations is presented in Section 4.3, provides robust empirical support for prioritizing data curation over data quantity in educational fine-tuning pipelines.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.4",
+          "position_end": 471,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 136,
+          "docx_paragraph_index": 146
+        },
+        "cosine_similarity": 0.4621271328471457
+      }
+    ],
+    "gold_position": 141
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q01",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "b4010a7c2a0aa1a33c82950259f956aa4df35a1e280a8bbd8f51a9e9278d9738",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 33,
+        "content": "Commercial AI tutoring solutions typically require substantial ongoing subscription costs—ranging from $1,200 to $5,000 monthly for institutional deployment—creating financial barriers for many Vietnamese schools. This research addresses these interconnected challenges by investigating how fine-tuning techniques can be applied to develop an effective, cost-efficient AI learning support system specifically designed for Vietnamese flipped classroom education.",
+        "metadata": {
+          "chapter": 1,
+          "section": "1.2",
+          "position_end": 461,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 33,
+          "docx_paragraph_index": 40
+        },
+        "cosine_similarity": 0.5975162626793239
+      },
+      {
+        "chunk_id": "9bccf485b2a59c9277dbdd96504e9437080dccb0b8592c1d5d3ddf723c8fb6a6",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 155,
+        "content": "For students: the system provides accessible, 24/7 AI tutoring during independent study, fostering guided learning rather than passive answer consumption. For educational institutions: the research demonstrates a cost-effective pathway to deploying AI tutoring systems without expensive commercial platforms. For flipped classroom implementation: the system directly addresses one of the most persistent challenges—student under-preparation—by providing reliable on-demand tutoring that strengthens pre-class preparation quality.",
+        "metadata": {
+          "chapter": 5,
+          "section": "5.5",
+          "position_end": 529,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 155,
+          "docx_paragraph_index": 166
+        },
+        "cosine_similarity": 0.47996268034648737
+      },
+      {
+        "chunk_id": "bb32c3328fd45e0204316d5b18554ea627d078000977f801f0630b1b4c3dbcd2",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 6,
+        "content": "This work demonstrates that cost-effective, pedagogically aligned AI tutoring for Vietnamese secondary students is achievable using open-source models and parameter-efficient fine-tuning, providing a replicable methodology and baseline benchmarks for future Vietnamese educational AI research. The findings have direct implications for educational equity, flipped classroom implementation, and the broader development of educational AI in low-resource language contexts.",
+        "metadata": {
+          "chapter": null,
+          "section": "Normal",
+          "position_end": 470,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 6,
+          "docx_paragraph_index": 10
+        },
+        "cosine_similarity": 0.47944952608795577
+      }
+    ],
+    "gold_position": 33
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q02",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "ee581607852777ba63bec169c87270b7ed89bc32411e21c71c21043cd52ec117",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 124,
+        "content": "The final curated training dataset comprises 746 student-AI conversation samples after the eight-step quality pipeline. The dataset is partitioned into 726 training samples and 20 held-out test samples. Average conversation length is 6.3 turns, with a mean of approximately 187 tokens per assistant response.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.2.1",
+          "position_end": 308,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 124,
+          "docx_paragraph_index": 134
+        },
+        "cosine_similarity": 0.48676425297474135
+      },
+      {
+        "chunk_id": "6892b5249ea44d79c59141b19275db06a1fac55be14fd063eb93db291d6ffcd5",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 123,
+        "content": "4.2.1 Dataset Composition",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.2.1",
+          "position_end": 25,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 123,
+          "docx_paragraph_index": 133
+        },
+        "cosine_similarity": 0.4479199176025588
+      },
+      {
+        "chunk_id": "9578b6c078d6a67ce4f8a492225e84316fdf7c3f05c10343d683f19a014aa004",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 101,
+        "content": "The training dataset consists of historical student-AI conversational records provided by the research supervisor, supplemented where necessary by structured prompting of existing LLMs to address topic gaps in the original corpus. The combined raw dataset was not in a state suitable for direct fine-tuning use and was therefore processed through the eight-step quality pipeline described in Section 3.2 (and detailed in Chapter 4, Section 4.2.2) prior to use in training.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.2",
+          "position_end": 472,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 101,
+          "docx_paragraph_index": 110
+        },
+        "cosine_similarity": 0.43964876054672275
+      }
+    ],
+    "gold_position": 124
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q03",
+    "split": "dev",
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "hits": [
+      {
+        "chunk_id": "dba1eae538c58e27e6f7995a9cfee8438eff12cfeb96935e1dec51e4a50c366a",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 241,
+        "content": "All fine-tuning experiments were conducted using the following base configuration,",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix B",
+          "position_end": 82,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 241,
+          "docx_paragraph_index": 255
+        },
+        "cosine_similarity": 0.5250711128073277
+      },
+      {
+        "chunk_id": "8a094d72773a47e802209b9996e417ca85ac66cd36dbe8a856ed55d1063da9de",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 121,
+        "content": "All experiments were conducted using cloud GPU environments (T4, 16GB VRAM) via Google Colab. Fine-tuning was implemented using Hugging Face PEFT and Unsloth, with model checkpoints evaluated every 50 training steps. Final model selection was based on the optimal trade-off between perplexity reduction and pedagogical quality improvement.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.1",
+          "position_end": 339,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 121,
+          "docx_paragraph_index": 131
+        },
+        "cosine_similarity": 0.4905170500278473
+      },
+      {
+        "chunk_id": "82ef3bc393780f57e1e77d612cfb0a58572c30b950ed5b94d1b5764b1ac9f634",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 99,
+        "content": "The overall research design follows an iterative development cycle—fine-tuning is conducted across multiple rounds, with evaluation results informing subsequent data curation and training decisions. This iterative approach reflects the empirical nature of LLM fine-tuning research, where initial configurations are progressively refined based on observed model behavior.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.1",
+          "position_end": 370,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 99,
+          "docx_paragraph_index": 108
+        },
+        "cosine_similarity": 0.4884667992591858
+      }
+    ],
+    "gold_position": 104
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q04",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "db02b2c3e9105b1e568ee0a3d4b2704446574898a4e561c1dd8a20432d8583a2",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 120,
+        "content": "This chapter presents the experimental setup, results, and analysis from the model fine-tuning and system evaluation phases of the research. The experiments were conducted in three stages: (1) baseline model evaluation to establish performance benchmarks; (2) comparative fine-tuning experiments varying base models, LoRA configurations, and data quality levels; and (3) end-to-end system evaluation assessing the integrated web-based chatbot.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.1",
+          "position_end": 443,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 120,
+          "docx_paragraph_index": 130
+        },
+        "cosine_similarity": 0.47781503464997765
+      },
+      {
+        "chunk_id": "b213c86296bbdbd9e929a8cdf58863e3bad1112346234d43a5c9b1544c410bdd",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 127,
+        "content": "4.3 Analysis of Results",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.3",
+          "position_end": 23,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 127,
+          "docx_paragraph_index": 137
+        },
+        "cosine_similarity": 0.4714353995659919
+      },
+      {
+        "chunk_id": "423c2cb14159644f9a2f3ce57b96e69e361dfde9d1ad8155a6c3e8c139cf6fea",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 118,
+        "content": "EXPERIMENTAL AND RESULTS",
+        "metadata": {
+          "chapter": 4,
+          "section": "CHAPTER",
+          "position_end": 24,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 118,
+          "docx_paragraph_index": 128
+        },
+        "cosine_similarity": 0.4531561518032352
+      }
+    ],
+    "gold_position": 120
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q05",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "5c21d75af9fe14e7e5469d887a3ba96facad559a121038af3def66575a59c877",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 131,
+        "content": "The most pronounced improvements were observed in pedagogical dimensions. The proportion of responses classified as guided inquiry (scaffolded, questioning, or step-by-step) increased from an average of 12% in baseline models to 68% in fine-tuned models (high-quality data configuration). Direct answer provision decreased from 71% to 19% on average. Vietnamese language quality scores improved by 34% on average, with particular gains in subject-specific terminology accuracy.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.3.2",
+          "position_end": 477,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 131,
+          "docx_paragraph_index": 141
+        },
+        "cosine_similarity": 0.729556874659249
+      },
+      {
+        "chunk_id": "5364058344a761f36dad31e56cef862c0b21ed2a5750681a39878eec4509a3a3",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 157,
+        "content": "The results support a theoretical framing of fine-tuning as behavioral alignment—shaping how the model interacts rather than merely what it knows. The behavioral shift from answer-giving to guided inquiry demonstrates that SFT alone, with carefully curated pedagogical data, can achieve meaningful alignment. The empirical evidence also contributes to an emerging theoretical understanding of data quality in fine-tuning: pedagogical quality dimensions are distinct from and more impactful than generic quality dimensions.",
+        "metadata": {
+          "chapter": 5,
+          "section": "5.6",
+          "position_end": 522,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 157,
+          "docx_paragraph_index": 168
+        },
+        "cosine_similarity": 0.6280645880776198
+      },
+      {
+        "chunk_id": "0476400f8e3f4cd99272bb268cff4c6f4c111b9c1c4f89979ac7f0ed3fe1b839",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 135,
+        "content": "The consistent pattern of improvement across all three base models—in both technical and pedagogical dimensions—suggests that LoRA fine-tuning reliably adapts general-purpose LLMs to educational interaction patterns when training data explicitly models desired pedagogical behaviors. The fine-tuned model demonstrated a substantial shift from direct-answer behavior toward guided inquiry responses, as assessed by the AI Judge evaluation framework. Prior to fine-tuning, the base model consistently provided direct answers to student queries. After fine-tuning, the model exhibited guided scaffolding behavior across evaluated test samples.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.4",
+          "position_end": 640,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 135,
+          "docx_paragraph_index": 145
+        },
+        "cosine_similarity": 0.6152818202972412
+      }
+    ],
+    "gold_position": 131
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q06",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "589684df727c8cd974a8b2ca4a6246fb2329c4b505e3072090d6ff8da98e7a32",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 133,
+        "content": "A controlled experiment comparing models fine-tuned on high-quality, medium-quality, and unfiltered data confirmed data quality as the dominant performance determinant. The high-quality data model outperformed the unfiltered data model by 41% on pedagogical quality metrics despite using only 62% of the samples—demonstrating the LIMA hypothesis in an educational context.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.3.3",
+          "position_end": 372,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 133,
+          "docx_paragraph_index": 143
+        },
+        "cosine_similarity": 0.7372759110824916
+      },
+      {
+        "chunk_id": "4f8b42e4cf6cf80bc1d9a27467eaabc0653a0ce14e86c262fd46f9955746a953",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 136,
+        "content": "A qualitative comparison of models trained on curated versus unfiltered data consistently demonstrated that higher data quality produced meaningfully better pedagogical alignment, confirming the data-centric hypothesis central to this study. Quantitative comparison of quality-controlled versus unfiltered configurations is presented in Section 4.3, provides robust empirical support for prioritizing data curation over data quantity in educational fine-tuning pipelines.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.4",
+          "position_end": 471,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 136,
+          "docx_paragraph_index": 146
+        },
+        "cosine_similarity": 0.7270798249793273
+      },
+      {
+        "chunk_id": "5c21d75af9fe14e7e5469d887a3ba96facad559a121038af3def66575a59c877",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 131,
+        "content": "The most pronounced improvements were observed in pedagogical dimensions. The proportion of responses classified as guided inquiry (scaffolded, questioning, or step-by-step) increased from an average of 12% in baseline models to 68% in fine-tuned models (high-quality data configuration). Direct answer provision decreased from 71% to 19% on average. Vietnamese language quality scores improved by 34% on average, with particular gains in subject-specific terminology accuracy.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.3.2",
+          "position_end": 477,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 131,
+          "docx_paragraph_index": 141
+        },
+        "cosine_similarity": 0.63174688816071
+      }
+    ],
+    "gold_position": 133
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q07",
+    "split": "dev",
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "c43dc8b5a49fd9ee9a18ace43bb27ce89c5ea0001e692531715d38fc8985914c",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 88,
+        "content": "2.6 Fit-Gap Analysis",
+        "metadata": {
+          "chapter": 2,
+          "section": "2.6",
+          "position_end": 20,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 88,
+          "docx_paragraph_index": 96
+        },
+        "cosine_similarity": 0.6030144152330452
+      },
+      {
+        "chunk_id": "6565ae11a2aa268b97582d7be5cd300565c99087ad003f2920264ac8e0f1a16f",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 92,
+        "content": "Despite these foundations, five critical gaps are identified: (1) limited Vietnamese-specific educational AI research for K-12 contexts; (2) insufficient understanding of data quality management for educational fine-tuning; (3) lack of AI solutions specifically designed for flipped classroom support; (4) limited demonstration of accessible implementation in resource-constrained contexts; and (5) absence of integrated frameworks combining data management, fine-tuning, and deployment.",
+        "metadata": {
+          "chapter": 2,
+          "section": "2.6",
+          "position_end": 487,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 92,
+          "docx_paragraph_index": 100
+        },
+        "cosine_similarity": 0.5931882858276536
+      },
+      {
+        "chunk_id": "7df2d7013b8f1c055bc56447065476b75643320ee52fe32f5cc08c210843841f",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 91,
+        "content": "What the Literature Does Not Adequately Address (Gap)",
+        "metadata": {
+          "chapter": 2,
+          "section": "2.6",
+          "position_end": 53,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 91,
+          "docx_paragraph_index": 99
+        },
+        "cosine_similarity": 0.591307247203166
+      }
+    ],
+    "gold_position": 92
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q08",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "f3bc2fbc28dfb88645329646b33829d0666456f3f3def6f5eb7d88b623bd8f10",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 106,
+        "content": "The web-based learning support system consists of two primary functional modules. The Administrative Interface provides data management tools for uploading, cleaning, and quality-evaluating training data; a no-code fine-tuning pipeline enabling model training without programming expertise; and post-fine-tuning model evaluation dashboards. The Student Interface provides a conversational AI chatbot accessible via web browser, designed for use during independent study phases of flipped classroom instruction.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.4",
+          "position_end": 510,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 106,
+          "docx_paragraph_index": 115
+        },
+        "cosine_similarity": 0.586708163422842
+      },
+      {
+        "chunk_id": "462b7f2d655c105b835c1a51a1dd30cd86a05b38e9d725f9c66c490d3577edff",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 171,
+        "content": "The integrated web-based system—combining an administrative interface for data management and no-code fine-tuning, and a student-facing chatbot for flipped classroom support—demonstrates end-to-end feasibility and provides a replicable architecture for similar initiatives. The system directly addresses the critical support gap in flipped classroom implementation: the absence of real-time guidance during home-based independent study, a documented obstacle to effective flipped learning in Vietnamese secondary education.",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.1",
+          "position_end": 523,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 171,
+          "docx_paragraph_index": 183
+        },
+        "cosine_similarity": 0.48447972166054765
+      },
+      {
+        "chunk_id": "5080038c97a17dd133d1f5a539869e5b98953e60659d3f7bf751cc41d697b109",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 40,
+        "content": "To design and develop a functional web-based learning support system that integrates the fine-tuned model and provides targeted assistance to students during independent study phases of flipped classroom instruction.",
+        "metadata": {
+          "chapter": 1,
+          "section": "1.3",
+          "position_end": 216,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 40,
+          "docx_paragraph_index": 47
+        },
+        "cosine_similarity": 0.4666174014350688
+      }
+    ],
+    "gold_position": 106
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q09",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "e9c4328b039bab337531479fa619295b88c0963c09ade933b229c6716f200544",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 107,
+        "content": "The system backend integrates the fine-tuned model via API, with conversation history management enabling multi-turn interactions. The frontend is developed using React and TypeScript, with a Node.js backend. The system is deployable on cloud infrastructure using standard web hosting services.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.4",
+          "position_end": 294,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 107,
+          "docx_paragraph_index": 116
+        },
+        "cosine_similarity": 0.45712766306833497
+      },
+      {
+        "chunk_id": "f3bc2fbc28dfb88645329646b33829d0666456f3f3def6f5eb7d88b623bd8f10",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 106,
+        "content": "The web-based learning support system consists of two primary functional modules. The Administrative Interface provides data management tools for uploading, cleaning, and quality-evaluating training data; a no-code fine-tuning pipeline enabling model training without programming expertise; and post-fine-tuning model evaluation dashboards. The Student Interface provides a conversational AI chatbot accessible via web browser, designed for use during independent study phases of flipped classroom instruction.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.4",
+          "position_end": 510,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 106,
+          "docx_paragraph_index": 115
+        },
+        "cosine_similarity": 0.40403845334282884
+      },
+      {
+        "chunk_id": "958a170527c7f26787c5340d4c434df217a0367289db467182636732b0591647",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 300299,
+        "content": "API | Application Programming Interface",
+        "metadata": {
+          "section": "table",
+          "row_index": 3,
+          "table_index": 3,
+          "position_end": 39,
+          "document_type": "capstone_project",
+          "position_type": "table_row",
+          "position_start": 0
+        },
+        "cosine_similarity": 0.39268727171789575
+      }
+    ],
+    "gold_position": 107
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q10",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "393444da13df4eb851d7b01049dcc609dd869c325317bdb9618cd086c3eb149d",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 110,
+        "content": "Evaluation is conducted comparatively across baseline models (non-fine-tuned), fine-tuned variants with different data configurations, and fine-tuned variants with different hyperparameter settings. An LLM-as-judge approach using Claude provides scalable pedagogical quality assessment, validated against human expert ratings.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "position_end": 326,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 110,
+          "docx_paragraph_index": 119
+        },
+        "cosine_similarity": 0.7825880646705683
+      },
+      {
+        "chunk_id": "39ad6e77cc632d1e579d175275dc193f96ca4181e35828b3fea209ce6c5a0e16",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 109,
+        "content": "Model evaluation employs a comprehensive framework combining technical and pedagogical dimensions. Technical metrics include perplexity, BERTScore (semantic similarity), and response length appropriateness. Pedagogical metrics assess guided inquiry frequency (proportion of responses employing questioning or scaffolding rather than direct answers), cognitive level appropriateness, explanation clarity, Vietnamese language quality, and subject-specific accuracy.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "position_end": 463,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 109,
+          "docx_paragraph_index": 118
+        },
+        "cosine_similarity": 0.643235308738314
+      },
+      {
+        "chunk_id": "7cec16c05a09f8a2db5daf7fc944ecd07555941e1babd3fd0e97ce4b96f155d3",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 201,
+        "content": "[11] Scarlatos, A., Brinton, C., & Lan, A. (2024). Exploring the use of LLMs for Socratic-style tutoring. CEUR Workshop on AI x Education (AIxEDU 2024).",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.2",
+          "position_end": 152,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 201,
+          "docx_paragraph_index": 214
+        },
+        "cosine_similarity": 0.615869797222016
+      }
+    ],
+    "gold_position": 110
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q11",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "b44f70a1d34acfaa721cf3cf14e6fa66f0918e66f2213ac41e050c7b715d71fd",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 111,
+        "content": "Four dimensions: Accuracy (factual correctness), Clarity (readability), Socratic Logic (guided inquiry depth), and Encouragement (tone and motivation). Each dimension is rated on a 5.0-point scale. The composite score is computed as the arithmetic mean of all four dimensions. Full rubric definitions are provided in Appendix C.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "position_end": 328,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 111,
+          "docx_paragraph_index": 120
+        },
+        "cosine_similarity": 0.6134959824976921
+      },
+      {
+        "chunk_id": "1c29afa563e47cf6f043b0ef7c64839ed9945371c9d6eabf29f2acd3f3f8ce4d",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 108,
+        "content": "3.5 Evaluation Framework",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "position_end": 24,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 108,
+          "docx_paragraph_index": 117
+        },
+        "cosine_similarity": 0.5827680230140686
+      },
+      {
+        "chunk_id": "78146fd08775234674cbac56c00ebbec1a8e5505a6eefb410e629b901e8affc3",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 250,
+        "content": "to assess model output quality. Each group is scored on a 5.0-point scale.",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix C",
+          "position_end": 74,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 250,
+          "docx_paragraph_index": 265
+        },
+        "cosine_similarity": 0.538722689304035
+      }
+    ],
+    "gold_position": 111
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q12",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "ae10c3272e4913e85d61a1c0a8b1d45ec9824439797bff1b269f1a8da7b15a71",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 115,
+        "content": "Computational constraints prevented experimentation with larger model variants (13B–70B parameters).",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.6",
+          "position_end": 100,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 115,
+          "docx_paragraph_index": 124
+        },
+        "cosine_similarity": 0.7415767908096313
+      },
+      {
+        "chunk_id": "7a50c8171bc266913f97a28737433ad09e1978d7e29ca6973a17c533813815aa",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 163,
+        "content": "Computational constraints prevented experiments with larger model variants.",
+        "metadata": {
+          "chapter": 5,
+          "section": "5.7",
+          "position_end": 75,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 163,
+          "docx_paragraph_index": 174
+        },
+        "cosine_similarity": 0.7366889715194702
+      },
+      {
+        "chunk_id": "9f84910ef6ed7880c117efe36c09144e31e5ccc3fecee2bf9fda89f424bef640",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 54,
+        "content": "Computational constraints limited experimentation with the largest available model variants.",
+        "metadata": {
+          "chapter": 1,
+          "section": "1.5",
+          "position_end": 92,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 54,
+          "docx_paragraph_index": 61
+        },
+        "cosine_similarity": 0.7218386795328525
+      }
+    ],
+    "gold_position": 115
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q13",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "6976ce35b0238fa6181f3d8275403ac690aec86eb6957df7b4c245a831386ac4",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 175,
+        "content": "Incorporating Direct Preference Optimization (DPO) or RLHF using student and educator feedback as reward signals to further refine pedagogical alignment beyond what SFT alone achieves.",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.2",
+          "position_end": 184,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 175,
+          "docx_paragraph_index": 187
+        },
+        "cosine_similarity": 0.5979993042348845
+      },
+      {
+        "chunk_id": "c0bfef95212689f0173fae16b53f58ba966ecdedbe2858b257a5863bfde802ae",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 300313,
+        "content": "RLHF | Reinforcement Learning from Human Feedback",
+        "metadata": {
+          "section": "table",
+          "row_index": 17,
+          "table_index": 3,
+          "position_end": 49,
+          "document_type": "capstone_project",
+          "position_type": "table_row",
+          "position_start": 0
+        },
+        "cosine_similarity": 0.5760917835263156
+      },
+      {
+        "chunk_id": "1194b8697f36f6cb2c1f359360bcae3cb7bc605436932764ca24cc8b143bfea1",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 300302,
+        "content": "DPO | Direct Preference Optimization",
+        "metadata": {
+          "section": "table",
+          "row_index": 6,
+          "table_index": 3,
+          "position_end": 36,
+          "document_type": "capstone_project",
+          "position_type": "table_row",
+          "position_start": 0
+        },
+        "cosine_similarity": 0.5715502160117415
+      }
+    ],
+    "gold_position": 175
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q14",
+    "split": "dev",
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "ca086d7b02d05168cdcd375fa9f6590c6e8eb00b4682dae06fc87a229b4eaf9b",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 240,
+        "content": "Appendix B: Fine-Tuning Configuration Details",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix B",
+          "position_end": 45,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 240,
+          "docx_paragraph_index": 254
+        },
+        "cosine_similarity": 0.6488947868347215
+      },
+      {
+        "chunk_id": "dba1eae538c58e27e6f7995a9cfee8438eff12cfeb96935e1dec51e4a50c366a",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 241,
+        "content": "All fine-tuning experiments were conducted using the following base configuration,",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix B",
+          "position_end": 82,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 241,
+          "docx_paragraph_index": 255
+        },
+        "cosine_similarity": 0.5905352830886883
+      },
+      {
+        "chunk_id": "431f71e4b019b60746423cf3960659348c50e763a34b44a78f8943444febd53d",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 245,
+        "content": "- Fine-tuning Method: QLoRA (4-bit NF4 quantization)",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix B",
+          "position_end": 52,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 245,
+          "docx_paragraph_index": 260
+        },
+        "cosine_similarity": 0.5887700915336651
+      }
+    ],
+    "gold_position": 245
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q15",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "cd6ad342d9a34172dd4ec6f4ef2f6e38bbf853ca8884f857a0dca277c35725d2",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 126,
+        "content": "Fine-tuning experiments were conducted on Qwen3-0.6B as the primary base model, across multiple QLoRA configurations. While the original research design proposed comparative evaluation across LLaMA 3, Mistral, and Qwen architectures, setup testing revealed that only Qwen3-0.6B was fully compatible with the NVIDIA T4 GPU (16GB VRAM) constraint within the project timeline. Complete fine-tuning runs with systematic metric evaluation were therefore conducted on Qwen3-0.6B exclusively. The evaluation compares multiple QLoRA configurations of Qwen3-0.6B against the Qwen3-0.6B zero-shot baseline, as detailed in Sections 4.3 and 4.5.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.2.2",
+          "position_end": 633,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 126,
+          "docx_paragraph_index": 136
+        },
+        "cosine_similarity": 0.7569410800933838
+      },
+      {
+        "chunk_id": "5436c14874db026c7058c582e2f7ce2dab9f011d8096b25d1fc1db3979e089b5",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 104,
+        "content": "The study applies QLoRA fine-tuning to Qwen3-0.6B as the primary base model. While LLaMA 3, Mistral, and larger Qwen variants were considered during the planning phase, setup testing confirmed that Qwen3-0.6B provides the optimal compatibility with the available hardware constraints. LoRA hyperparameters explored include rank (r = 8, 16, 32), alpha scaling factors, and target module selection. All training is conducted using the Unsloth optimization library and Hugging Face PEFT on Google Colab with NVIDIA T4 GPU (16GB VRAM). Multiple training configurations are evaluated, with model checkpoints selected based on validation perplexity.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "position_end": 643,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 104,
+          "docx_paragraph_index": 113
+        },
+        "cosine_similarity": 0.6913311849437781
+      },
+      {
+        "chunk_id": "dd3ea4044645b1516290ae582b12db17de967fd1f9ef0f2c0297dd0163cca353",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 244,
+        "content": "- Base Model: Qwen/Qwen3-0.6B",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix B",
+          "position_end": 29,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 244,
+          "docx_paragraph_index": 259
+        },
+        "cosine_similarity": 0.574702791098012
+      }
+    ],
+    "gold_position": 126
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q16",
+    "split": "test",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "72e9e7413587dec9f182fa65dfd6c0272563488dfac44757d9dc5f4a0efcdbb6",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 65,
+        "content": "Low-Rank Adaptation (LoRA) is the most successful PEFT approach. It freezes pre-trained weights and injects trainable low-rank matrices into each layer, reducing trainable parameters by up to 10,000x while maintaining quality. QLoRA extends LoRA by quantizing frozen weights to 4-bit precision, enabling fine-tuning of very large models on consumer GPUs.",
+        "metadata": {
+          "chapter": 2,
+          "section": "2.1.2",
+          "position_end": 354,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 65,
+          "docx_paragraph_index": 73
+        },
+        "cosine_similarity": 0.7129276052627144
+      },
+      {
+        "chunk_id": "fa4aaa644e2db8275d85c9c862f683a124d6d25e4c9278a56573f77153afd324",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 86,
+        "content": "LoRA represents state-of-the-art parameter-efficient fine-tuning. It operates on the insight that weight updates during fine-tuning have low intrinsic rank. QLoRA extends this by storing frozen weights in 4-bit precision, enabling fine-tuning of large models (e.g., 7B–13B parameters) on consumer-grade GPUs such as the NVIDIA T4 (16GB VRAM). The Hugging Face Transformers library, PEFT library, and Unsloth framework together provide the primary technical stack for this research.",
+        "metadata": {
+          "chapter": 2,
+          "section": "2.5",
+          "position_end": 481,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 86,
+          "docx_paragraph_index": 94
+        },
+        "cosine_similarity": 0.6886739730834961
+      },
+      {
+        "chunk_id": "431f71e4b019b60746423cf3960659348c50e763a34b44a78f8943444febd53d",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 245,
+        "content": "- Fine-tuning Method: QLoRA (4-bit NF4 quantization)",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix B",
+          "position_end": 52,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 245,
+          "docx_paragraph_index": 260
+        },
+        "cosine_similarity": 0.6333086709196178
+      }
+    ],
+    "gold_position": 65
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q17",
+    "split": "test",
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "883464f774e3b32bd4101ad75b4ec51d96dbf6c64b3171612950dd4befca99bf",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 249,
+        "content": "The following rubric was applied by both the AI Judge and human reviewers",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix C",
+          "position_end": 73,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 249,
+          "docx_paragraph_index": 264
+        },
+        "cosine_similarity": 0.6426938772201538
+      },
+      {
+        "chunk_id": "1ae29a5ff6f89dd584179219a14f37acb91dc38ea27a8947b2af8d252bf85330",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 129,
+        "content": "All fine-tuned models demonstrated significant perplexity reduction compared to baselines. The fine-tuned Qwen3-0.6B model demonstrated clear improvement across evaluated dimensions compared to its zero-shot baseline. VRAM consumption during training was approximately 5.6GB out of 14.7GB available (38% utilization), confirming the hardware efficiency of the QLoRA approach on NVIDIA T4. Automated pedagogical evaluation using the AI Judge framework yielded an overall average score of 4.75/5.0, with Clarity and Encouragement dimensions achieving perfect scores (5.0/5.0) and Socratic Logic and Accuracy scoring 4.5/5.0. Detailed metric breakdowns are presented in Table 4.X.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.3.1",
+          "position_end": 677,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 129,
+          "docx_paragraph_index": 139
+        },
+        "cosine_similarity": 0.6115364200792573
+      },
+      {
+        "chunk_id": "393444da13df4eb851d7b01049dcc609dd869c325317bdb9618cd086c3eb149d",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 110,
+        "content": "Evaluation is conducted comparatively across baseline models (non-fine-tuned), fine-tuned variants with different data configurations, and fine-tuned variants with different hyperparameter settings. An LLM-as-judge approach using Claude provides scalable pedagogical quality assessment, validated against human expert ratings.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "position_end": 326,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 110,
+          "docx_paragraph_index": 119
+        },
+        "cosine_similarity": 0.6088394289517073
+      }
+    ],
+    "gold_position": 129
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q18",
+    "split": "test",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 184,
+        "content": "Integration with national Vietnamese educational platforms and LMS systems (Moodle, Canvas) to increase adoption and sustainability.",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.2",
+          "position_end": 132,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 184,
+          "docx_paragraph_index": 196
+        },
+        "cosine_similarity": 0.6954878205642486
+      },
+      {
+        "chunk_id": "8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 300307,
+        "content": "LMS | Learning Management System",
+        "metadata": {
+          "section": "table",
+          "row_index": 11,
+          "table_index": 3,
+          "position_end": 32,
+          "document_type": "capstone_project",
+          "position_type": "table_row",
+          "position_start": 0
+        },
+        "cosine_similarity": 0.5344776788665333
+      },
+      {
+        "chunk_id": "462b7f2d655c105b835c1a51a1dd30cd86a05b38e9d725f9c66c490d3577edff",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 171,
+        "content": "The integrated web-based system—combining an administrative interface for data management and no-code fine-tuning, and a student-facing chatbot for flipped classroom support—demonstrates end-to-end feasibility and provides a replicable architecture for similar initiatives. The system directly addresses the critical support gap in flipped classroom implementation: the absence of real-time guidance during home-based independent study, a documented obstacle to effective flipped learning in Vietnamese secondary education.",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.1",
+          "position_end": 523,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 171,
+          "docx_paragraph_index": 183
+        },
+        "cosine_similarity": 0.4962319724974592
+      }
+    ],
+    "gold_position": 184
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q19",
+    "split": "test",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 184,
+        "content": "Integration with national Vietnamese educational platforms and LMS systems (Moodle, Canvas) to increase adoption and sustainability.",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.2",
+          "position_end": 132,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 184,
+          "docx_paragraph_index": 196
+        },
+        "cosine_similarity": 0.7092393213964027
+      },
+      {
+        "chunk_id": "8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 300307,
+        "content": "LMS | Learning Management System",
+        "metadata": {
+          "section": "table",
+          "row_index": 11,
+          "table_index": 3,
+          "position_end": 32,
+          "document_type": "capstone_project",
+          "position_type": "table_row",
+          "position_start": 0
+        },
+        "cosine_similarity": 0.5876296549726355
+      },
+      {
+        "chunk_id": "5b5640774bec06eef72ffa05fb179fb982d4324a8897cb094896118f3a438a79",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 49,
+        "content": "This study encompasses the following technical boundaries: subject coverage spans taught in Vietnamese secondary and high school education; the primary language of instruction and interaction is Vietnamese; base models include LLaMA 3, Mistral, and Qwen; fine-tuning methodology focuses on LoRA and related PEFT techniques; the dataset comprises approximately 746 curated student-AI conversation samples; and the web-based platform includes administrative and student-facing functional modules.",
+        "metadata": {
+          "chapter": 1,
+          "section": "1.5",
+          "position_end": 494,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 49,
+          "docx_paragraph_index": 56
+        },
+        "cosine_similarity": 0.4606769453268753
+      }
+    ],
+    "gold_position": 184
+  },
+  {
+    "strategy": "paragraph-v1",
+    "question_id": "q20",
+    "split": "test",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "2b1bad91ea2f27de2eb531c22df5a943e79aae98a0117eff3f290f1abdf94075",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 141,
+        "content": "The results confirm the core technical feasibility of the proposed approach: parameter-efficient fine-tuning on modest Vietnamese educational datasets can produce meaningfully improved AI tutoring behavior, deployable within academic resource constraints. The data quality findings have direct practical implications for institutions seeking to develop similar systems, suggesting that investment in expert data curation yields greater returns than investment in data quantity or compute scale.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.6",
+          "position_end": 494,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 141,
+          "docx_paragraph_index": 151
+        },
+        "cosine_similarity": 0.5368325826377407
+      },
+      {
+        "chunk_id": "4f8b42e4cf6cf80bc1d9a27467eaabc0653a0ce14e86c262fd46f9955746a953",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 136,
+        "content": "A qualitative comparison of models trained on curated versus unfiltered data consistently demonstrated that higher data quality produced meaningfully better pedagogical alignment, confirming the data-centric hypothesis central to this study. Quantitative comparison of quality-controlled versus unfiltered configurations is presented in Section 4.3, provides robust empirical support for prioritizing data curation over data quantity in educational fine-tuning pipelines.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.4",
+          "position_end": 471,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 136,
+          "docx_paragraph_index": 146
+        },
+        "cosine_similarity": 0.4698147353695622
+      },
+      {
+        "chunk_id": "5c21d75af9fe14e7e5469d887a3ba96facad559a121038af3def66575a59c877",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 131,
+        "content": "The most pronounced improvements were observed in pedagogical dimensions. The proportion of responses classified as guided inquiry (scaffolded, questioning, or step-by-step) increased from an average of 12% in baseline models to 68% in fine-tuned models (high-quality data configuration). Direct answer provision decreased from 71% to 19% on average. Vietnamese language quality scores improved by 34% on average, with particular gains in subject-specific terminology accuracy.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.3.2",
+          "position_end": 477,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 131,
+          "docx_paragraph_index": 141
+        },
+        "cosine_similarity": 0.4625211220228356
+      }
+    ],
+    "gold_position": 141
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q01",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "b4010a7c2a0aa1a33c82950259f956aa4df35a1e280a8bbd8f51a9e9278d9738",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 33,
+        "content": "Commercial AI tutoring solutions typically require substantial ongoing subscription costs—ranging from $1,200 to $5,000 monthly for institutional deployment—creating financial barriers for many Vietnamese schools. This research addresses these interconnected challenges by investigating how fine-tuning techniques can be applied to develop an effective, cost-efficient AI learning support system specifically designed for Vietnamese flipped classroom education.",
+        "metadata": {
+          "chapter": 1,
+          "section": "1.2",
+          "position_end": 461,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 33,
+          "docx_paragraph_index": 40
+        },
+        "cosine_similarity": 0.5953265428543091
+      },
+      {
+        "chunk_id": "9bccf485b2a59c9277dbdd96504e9437080dccb0b8592c1d5d3ddf723c8fb6a6",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 155,
+        "content": "For students: the system provides accessible, 24/7 AI tutoring during independent study, fostering guided learning rather than passive answer consumption. For educational institutions: the research demonstrates a cost-effective pathway to deploying AI tutoring systems without expensive commercial platforms. For flipped classroom implementation: the system directly addresses one of the most persistent challenges—student under-preparation—by providing reliable on-demand tutoring that strengthens pre-class preparation quality.",
+        "metadata": {
+          "chapter": 5,
+          "section": "5.5",
+          "position_end": 529,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 155,
+          "docx_paragraph_index": 166
+        },
+        "cosine_similarity": 0.47748405009698613
+      },
+      {
+        "chunk_id": "bb32c3328fd45e0204316d5b18554ea627d078000977f801f0630b1b4c3dbcd2",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 6,
+        "content": "This work demonstrates that cost-effective, pedagogically aligned AI tutoring for Vietnamese secondary students is achievable using open-source models and parameter-efficient fine-tuning, providing a replicable methodology and baseline benchmarks for future Vietnamese educational AI research. The findings have direct implications for educational equity, flipped classroom implementation, and the broader development of educational AI in low-resource language contexts.",
+        "metadata": {
+          "chapter": null,
+          "section": "Normal",
+          "position_end": 470,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 6,
+          "docx_paragraph_index": 10
+        },
+        "cosine_similarity": 0.4761186980044456
+      }
+    ],
+    "gold_position": 33
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q02",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "ee581607852777ba63bec169c87270b7ed89bc32411e21c71c21043cd52ec117",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 124,
+        "content": "The final curated training dataset comprises 746 student-AI conversation samples after the eight-step quality pipeline. The dataset is partitioned into 726 training samples and 20 held-out test samples. Average conversation length is 6.3 turns, with a mean of approximately 187 tokens per assistant response.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.2.1",
+          "position_end": 308,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 124,
+          "docx_paragraph_index": 134
+        },
+        "cosine_similarity": 0.48581433380757555
+      },
+      {
+        "chunk_id": "6892b5249ea44d79c59141b19275db06a1fac55be14fd063eb93db291d6ffcd5",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 123,
+        "content": "4.2.1 Dataset Composition",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.2.1",
+          "position_end": 25,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 123,
+          "docx_paragraph_index": 133
+        },
+        "cosine_similarity": 0.44630010216233673
+      },
+      {
+        "chunk_id": "9578b6c078d6a67ce4f8a492225e84316fdf7c3f05c10343d683f19a014aa004",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 101,
+        "content": "The training dataset consists of historical student-AI conversational records provided by the research supervisor, supplemented where necessary by structured prompting of existing LLMs to address topic gaps in the original corpus. The combined raw dataset was not in a state suitable for direct fine-tuning use and was therefore processed through the eight-step quality pipeline described in Section 3.2 (and detailed in Chapter 4, Section 4.2.2) prior to use in training.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.2",
+          "position_end": 472,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 101,
+          "docx_paragraph_index": 110
+        },
+        "cosine_similarity": 0.4405779969864645
+      }
+    ],
+    "gold_position": 124
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q03",
+    "split": "dev",
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "hits": [
+      {
+        "chunk_id": "dba1eae538c58e27e6f7995a9cfee8438eff12cfeb96935e1dec51e4a50c366a",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 241,
+        "content": "All fine-tuning experiments were conducted using the following base configuration,",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix B",
+          "position_end": 82,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 241,
+          "docx_paragraph_index": 255
+        },
+        "cosine_similarity": 0.528460471125814
+      },
+      {
+        "chunk_id": "8a094d72773a47e802209b9996e417ca85ac66cd36dbe8a856ed55d1063da9de",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 121,
+        "content": "All experiments were conducted using cloud GPU environments (T4, 16GB VRAM) via Google Colab. Fine-tuning was implemented using Hugging Face PEFT and Unsloth, with model checkpoints evaluated every 50 training steps. Final model selection was based on the optimal trade-off between perplexity reduction and pedagogical quality improvement.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.1",
+          "position_end": 339,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 121,
+          "docx_paragraph_index": 131
+        },
+        "cosine_similarity": 0.4968428611755371
+      },
+      {
+        "chunk_id": "82ef3bc393780f57e1e77d612cfb0a58572c30b950ed5b94d1b5764b1ac9f634",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 99,
+        "content": "The overall research design follows an iterative development cycle—fine-tuning is conducted across multiple rounds, with evaluation results informing subsequent data curation and training decisions. This iterative approach reflects the empirical nature of LLM fine-tuning research, where initial configurations are progressively refined based on observed model behavior.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.1",
+          "position_end": 370,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 99,
+          "docx_paragraph_index": 108
+        },
+        "cosine_similarity": 0.4935731291770935
+      }
+    ],
+    "gold_position": 104
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q04",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "db02b2c3e9105b1e568ee0a3d4b2704446574898a4e561c1dd8a20432d8583a2",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 120,
+        "content": "This chapter presents the experimental setup, results, and analysis from the model fine-tuning and system evaluation phases of the research. The experiments were conducted in three stages: (1) baseline model evaluation to establish performance benchmarks; (2) comparative fine-tuning experiments varying base models, LoRA configurations, and data quality levels; and (3) end-to-end system evaluation assessing the integrated web-based chatbot.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.1",
+          "position_end": 443,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 120,
+          "docx_paragraph_index": 130
+        },
+        "cosine_similarity": 0.47926324482341165
+      },
+      {
+        "chunk_id": "b213c86296bbdbd9e929a8cdf58863e3bad1112346234d43a5c9b1544c410bdd",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 127,
+        "content": "4.3 Analysis of Results",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.3",
+          "position_end": 23,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 127,
+          "docx_paragraph_index": 137
+        },
+        "cosine_similarity": 0.4728881386385163
+      },
+      {
+        "chunk_id": "423c2cb14159644f9a2f3ce57b96e69e361dfde9d1ad8155a6c3e8c139cf6fea",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 118,
+        "content": "EXPERIMENTAL AND RESULTS",
+        "metadata": {
+          "chapter": 4,
+          "section": "CHAPTER",
+          "position_end": 24,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 118,
+          "docx_paragraph_index": 128
+        },
+        "cosine_similarity": 0.454746812582016
+      }
+    ],
+    "gold_position": 120
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q05",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "5c21d75af9fe14e7e5469d887a3ba96facad559a121038af3def66575a59c877",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 131,
+        "content": "The most pronounced improvements were observed in pedagogical dimensions. The proportion of responses classified as guided inquiry (scaffolded, questioning, or step-by-step) increased from an average of 12% in baseline models to 68% in fine-tuned models (high-quality data configuration). Direct answer provision decreased from 71% to 19% on average. Vietnamese language quality scores improved by 34% on average, with particular gains in subject-specific terminology accuracy.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.3.2",
+          "position_end": 477,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 131,
+          "docx_paragraph_index": 141
+        },
+        "cosine_similarity": 0.729556874659249
+      },
+      {
+        "chunk_id": "5364058344a761f36dad31e56cef862c0b21ed2a5750681a39878eec4509a3a3",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 157,
+        "content": "The results support a theoretical framing of fine-tuning as behavioral alignment—shaping how the model interacts rather than merely what it knows. The behavioral shift from answer-giving to guided inquiry demonstrates that SFT alone, with carefully curated pedagogical data, can achieve meaningful alignment. The empirical evidence also contributes to an emerging theoretical understanding of data quality in fine-tuning: pedagogical quality dimensions are distinct from and more impactful than generic quality dimensions.",
+        "metadata": {
+          "chapter": 5,
+          "section": "5.6",
+          "position_end": 522,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 157,
+          "docx_paragraph_index": 168
+        },
+        "cosine_similarity": 0.6280645880776198
+      },
+      {
+        "chunk_id": "0476400f8e3f4cd99272bb268cff4c6f4c111b9c1c4f89979ac7f0ed3fe1b839",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 135,
+        "content": "The consistent pattern of improvement across all three base models—in both technical and pedagogical dimensions—suggests that LoRA fine-tuning reliably adapts general-purpose LLMs to educational interaction patterns when training data explicitly models desired pedagogical behaviors. The fine-tuned model demonstrated a substantial shift from direct-answer behavior toward guided inquiry responses, as assessed by the AI Judge evaluation framework. Prior to fine-tuning, the base model consistently provided direct answers to student queries. After fine-tuning, the model exhibited guided scaffolding behavior across evaluated test samples.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.4",
+          "position_end": 640,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 135,
+          "docx_paragraph_index": 145
+        },
+        "cosine_similarity": 0.6152818202972412
+      }
+    ],
+    "gold_position": 131
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q06",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "589684df727c8cd974a8b2ca4a6246fb2329c4b505e3072090d6ff8da98e7a32",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 133,
+        "content": "A controlled experiment comparing models fine-tuned on high-quality, medium-quality, and unfiltered data confirmed data quality as the dominant performance determinant. The high-quality data model outperformed the unfiltered data model by 41% on pedagogical quality metrics despite using only 62% of the samples—demonstrating the LIMA hypothesis in an educational context.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.3.3",
+          "position_end": 372,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 133,
+          "docx_paragraph_index": 143
+        },
+        "cosine_similarity": 0.7376365065574856
+      },
+      {
+        "chunk_id": "4f8b42e4cf6cf80bc1d9a27467eaabc0653a0ce14e86c262fd46f9955746a953",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 136,
+        "content": "A qualitative comparison of models trained on curated versus unfiltered data consistently demonstrated that higher data quality produced meaningfully better pedagogical alignment, confirming the data-centric hypothesis central to this study. Quantitative comparison of quality-controlled versus unfiltered configurations is presented in Section 4.3, provides robust empirical support for prioritizing data curation over data quantity in educational fine-tuning pipelines.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.4",
+          "position_end": 471,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 136,
+          "docx_paragraph_index": 146
+        },
+        "cosine_similarity": 0.7273476773863607
+      },
+      {
+        "chunk_id": "5c21d75af9fe14e7e5469d887a3ba96facad559a121038af3def66575a59c877",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 131,
+        "content": "The most pronounced improvements were observed in pedagogical dimensions. The proportion of responses classified as guided inquiry (scaffolded, questioning, or step-by-step) increased from an average of 12% in baseline models to 68% in fine-tuned models (high-quality data configuration). Direct answer provision decreased from 71% to 19% on average. Vietnamese language quality scores improved by 34% on average, with particular gains in subject-specific terminology accuracy.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.3.2",
+          "position_end": 477,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 131,
+          "docx_paragraph_index": 141
+        },
+        "cosine_similarity": 0.6314753356918104
+      }
+    ],
+    "gold_position": 133
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q07",
+    "split": "dev",
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "c43dc8b5a49fd9ee9a18ace43bb27ce89c5ea0001e692531715d38fc8985914c",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 88,
+        "content": "2.6 Fit-Gap Analysis",
+        "metadata": {
+          "chapter": 2,
+          "section": "2.6",
+          "position_end": 20,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 88,
+          "docx_paragraph_index": 96
+        },
+        "cosine_similarity": 0.5968132196907171
+      },
+      {
+        "chunk_id": "6565ae11a2aa268b97582d7be5cd300565c99087ad003f2920264ac8e0f1a16f",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 92,
+        "content": "Despite these foundations, five critical gaps are identified: (1) limited Vietnamese-specific educational AI research for K-12 contexts; (2) insufficient understanding of data quality management for educational fine-tuning; (3) lack of AI solutions specifically designed for flipped classroom support; (4) limited demonstration of accessible implementation in resource-constrained contexts; and (5) absence of integrated frameworks combining data management, fine-tuning, and deployment.",
+        "metadata": {
+          "chapter": 2,
+          "section": "2.6",
+          "position_end": 487,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 92,
+          "docx_paragraph_index": 100
+        },
+        "cosine_similarity": 0.5896814572431436
+      },
+      {
+        "chunk_id": "7df2d7013b8f1c055bc56447065476b75643320ee52fe32f5cc08c210843841f",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 91,
+        "content": "What the Literature Does Not Adequately Address (Gap)",
+        "metadata": {
+          "chapter": 2,
+          "section": "2.6",
+          "position_end": 53,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 91,
+          "docx_paragraph_index": 99
+        },
+        "cosine_similarity": 0.5860668770114716
+      }
+    ],
+    "gold_position": 92
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q08",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "f3bc2fbc28dfb88645329646b33829d0666456f3f3def6f5eb7d88b623bd8f10",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 106,
+        "content": "The web-based learning support system consists of two primary functional modules. The Administrative Interface provides data management tools for uploading, cleaning, and quality-evaluating training data; a no-code fine-tuning pipeline enabling model training without programming expertise; and post-fine-tuning model evaluation dashboards. The Student Interface provides a conversational AI chatbot accessible via web browser, designed for use during independent study phases of flipped classroom instruction.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.4",
+          "position_end": 510,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 106,
+          "docx_paragraph_index": 115
+        },
+        "cosine_similarity": 0.586708163422842
+      },
+      {
+        "chunk_id": "462b7f2d655c105b835c1a51a1dd30cd86a05b38e9d725f9c66c490d3577edff",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 171,
+        "content": "The integrated web-based system—combining an administrative interface for data management and no-code fine-tuning, and a student-facing chatbot for flipped classroom support—demonstrates end-to-end feasibility and provides a replicable architecture for similar initiatives. The system directly addresses the critical support gap in flipped classroom implementation: the absence of real-time guidance during home-based independent study, a documented obstacle to effective flipped learning in Vietnamese secondary education.",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.1",
+          "position_end": 523,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 171,
+          "docx_paragraph_index": 183
+        },
+        "cosine_similarity": 0.48447972166054765
+      },
+      {
+        "chunk_id": "5080038c97a17dd133d1f5a539869e5b98953e60659d3f7bf751cc41d697b109",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 40,
+        "content": "To design and develop a functional web-based learning support system that integrates the fine-tuned model and provides targeted assistance to students during independent study phases of flipped classroom instruction.",
+        "metadata": {
+          "chapter": 1,
+          "section": "1.3",
+          "position_end": 216,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 40,
+          "docx_paragraph_index": 47
+        },
+        "cosine_similarity": 0.4666174014350688
+      }
+    ],
+    "gold_position": 106
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q09",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "e9c4328b039bab337531479fa619295b88c0963c09ade933b229c6716f200544",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 107,
+        "content": "The system backend integrates the fine-tuned model via API, with conversation history management enabling multi-turn interactions. The frontend is developed using React and TypeScript, with a Node.js backend. The system is deployable on cloud infrastructure using standard web hosting services.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.4",
+          "position_end": 294,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 107,
+          "docx_paragraph_index": 116
+        },
+        "cosine_similarity": 0.46447402662349746
+      },
+      {
+        "chunk_id": "f3bc2fbc28dfb88645329646b33829d0666456f3f3def6f5eb7d88b623bd8f10",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 106,
+        "content": "The web-based learning support system consists of two primary functional modules. The Administrative Interface provides data management tools for uploading, cleaning, and quality-evaluating training data; a no-code fine-tuning pipeline enabling model training without programming expertise; and post-fine-tuning model evaluation dashboards. The Student Interface provides a conversational AI chatbot accessible via web browser, designed for use during independent study phases of flipped classroom instruction.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.4",
+          "position_end": 510,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 106,
+          "docx_paragraph_index": 115
+        },
+        "cosine_similarity": 0.41035589575767806
+      },
+      {
+        "chunk_id": "958a170527c7f26787c5340d4c434df217a0367289db467182636732b0591647",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 300299,
+        "content": "API | Application Programming Interface",
+        "metadata": {
+          "section": "table",
+          "row_index": 3,
+          "table_index": 3,
+          "position_end": 39,
+          "document_type": "capstone_project",
+          "position_type": "table_row",
+          "position_start": 0
+        },
+        "cosine_similarity": 0.3921996524571958
+      }
+    ],
+    "gold_position": 107
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q10",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "393444da13df4eb851d7b01049dcc609dd869c325317bdb9618cd086c3eb149d",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 110,
+        "content": "Evaluation is conducted comparatively across baseline models (non-fine-tuned), fine-tuned variants with different data configurations, and fine-tuned variants with different hyperparameter settings. An LLM-as-judge approach using Claude provides scalable pedagogical quality assessment, validated against human expert ratings.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "position_end": 326,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 110,
+          "docx_paragraph_index": 119
+        },
+        "cosine_similarity": 0.7825880646705683
+      },
+      {
+        "chunk_id": "39ad6e77cc632d1e579d175275dc193f96ca4181e35828b3fea209ce6c5a0e16",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 109,
+        "content": "Model evaluation employs a comprehensive framework combining technical and pedagogical dimensions. Technical metrics include perplexity, BERTScore (semantic similarity), and response length appropriateness. Pedagogical metrics assess guided inquiry frequency (proportion of responses employing questioning or scaffolding rather than direct answers), cognitive level appropriateness, explanation clarity, Vietnamese language quality, and subject-specific accuracy.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "position_end": 463,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 109,
+          "docx_paragraph_index": 118
+        },
+        "cosine_similarity": 0.643235308738314
+      },
+      {
+        "chunk_id": "7cec16c05a09f8a2db5daf7fc944ecd07555941e1babd3fd0e97ce4b96f155d3",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 201,
+        "content": "[11] Scarlatos, A., Brinton, C., & Lan, A. (2024). Exploring the use of LLMs for Socratic-style tutoring. CEUR Workshop on AI x Education (AIxEDU 2024).",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.2",
+          "position_end": 152,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 201,
+          "docx_paragraph_index": 214
+        },
+        "cosine_similarity": 0.615869797222016
+      }
+    ],
+    "gold_position": 110
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q11",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "b44f70a1d34acfaa721cf3cf14e6fa66f0918e66f2213ac41e050c7b715d71fd",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 111,
+        "content": "Four dimensions: Accuracy (factual correctness), Clarity (readability), Socratic Logic (guided inquiry depth), and Encouragement (tone and motivation). Each dimension is rated on a 5.0-point scale. The composite score is computed as the arithmetic mean of all four dimensions. Full rubric definitions are provided in Appendix C.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "position_end": 328,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 111,
+          "docx_paragraph_index": 120
+        },
+        "cosine_similarity": 0.6133722893373892
+      },
+      {
+        "chunk_id": "1c29afa563e47cf6f043b0ef7c64839ed9945371c9d6eabf29f2acd3f3f8ce4d",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 108,
+        "content": "3.5 Evaluation Framework",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "position_end": 24,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 108,
+          "docx_paragraph_index": 117
+        },
+        "cosine_similarity": 0.5823971530917742
+      },
+      {
+        "chunk_id": "39ad6e77cc632d1e579d175275dc193f96ca4181e35828b3fea209ce6c5a0e16",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 109,
+        "content": "Model evaluation employs a comprehensive framework combining technical and pedagogical dimensions. Technical metrics include perplexity, BERTScore (semantic similarity), and response length appropriateness. Pedagogical metrics assess guided inquiry frequency (proportion of responses employing questioning or scaffolding rather than direct answers), cognitive level appropriateness, explanation clarity, Vietnamese language quality, and subject-specific accuracy.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "position_end": 463,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 109,
+          "docx_paragraph_index": 118
+        },
+        "cosine_similarity": 0.4831341833232322
+      }
+    ],
+    "gold_position": 111
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q12",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "ae10c3272e4913e85d61a1c0a8b1d45ec9824439797bff1b269f1a8da7b15a71",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 115,
+        "content": "Computational constraints prevented experimentation with larger model variants (13B–70B parameters).",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.6",
+          "position_end": 100,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 115,
+          "docx_paragraph_index": 124
+        },
+        "cosine_similarity": 0.735190749168396
+      },
+      {
+        "chunk_id": "eb255205fb41e119a9d94d33a9628858ec1fff3fb2a085af3033764efc268e66",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 112,
+        "content": "3.6 Limitations of Methodology",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.6",
+          "position_end": 30,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 112,
+          "docx_paragraph_index": 121
+        },
+        "cosine_similarity": 0.5718602964628364
+      },
+      {
+        "chunk_id": "1ab4f8929ac05a2f991e0a86ba69591311b7a4252c66407432a2497e6f16ce85",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 113,
+        "content": "Dataset size (approximately 746 curated samples) is modest by LLM standards and may limit subject-specific depth.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.6",
+          "position_end": 113,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 113,
+          "docx_paragraph_index": 122
+        },
+        "cosine_similarity": 0.5186421142794613
+      }
+    ],
+    "gold_position": 115
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q13",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "6976ce35b0238fa6181f3d8275403ac690aec86eb6957df7b4c245a831386ac4",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 175,
+        "content": "Incorporating Direct Preference Optimization (DPO) or RLHF using student and educator feedback as reward signals to further refine pedagogical alignment beyond what SFT alone achieves.",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.2",
+          "position_end": 184,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 175,
+          "docx_paragraph_index": 187
+        },
+        "cosine_similarity": 0.6048222669641353
+      },
+      {
+        "chunk_id": "299dec5b979900b5fcf10534bda6a3f4b70510a064c21f0192c75d3b667f3a6c",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 203,
+        "content": "[13] Ouyang, L., Wu, J., Jiang, X., et al. (2022). Training language models to follow instructions with human feedback. NeurIPS 35, 27730–27744.",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.2",
+          "position_end": 144,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 203,
+          "docx_paragraph_index": 216
+        },
+        "cosine_similarity": 0.5192548059528982
+      },
+      {
+        "chunk_id": "6794b837416e5873b832e2057fd2090a657a7006f55c83e3214a0d2b4bf2be6e",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 196,
+        "content": "[6] Hu, E. J., Shen, Y., Wallis, P., et al. (2022). LoRA: Low-rank adaptation of large language models. arXiv:2106.09685.",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.2",
+          "position_end": 121,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 196,
+          "docx_paragraph_index": 209
+        },
+        "cosine_similarity": 0.46828475027408456
+      }
+    ],
+    "gold_position": 175
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q14",
+    "split": "dev",
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "ca086d7b02d05168cdcd375fa9f6590c6e8eb00b4682dae06fc87a229b4eaf9b",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 240,
+        "content": "Appendix B: Fine-Tuning Configuration Details",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix B",
+          "position_end": 45,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 240,
+          "docx_paragraph_index": 254
+        },
+        "cosine_similarity": 0.650581598281865
+      },
+      {
+        "chunk_id": "dba1eae538c58e27e6f7995a9cfee8438eff12cfeb96935e1dec51e4a50c366a",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 241,
+        "content": "All fine-tuning experiments were conducted using the following base configuration,",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix B",
+          "position_end": 82,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 241,
+          "docx_paragraph_index": 255
+        },
+        "cosine_similarity": 0.5923975706100506
+      },
+      {
+        "chunk_id": "431f71e4b019b60746423cf3960659348c50e763a34b44a78f8943444febd53d",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 245,
+        "content": "- Fine-tuning Method: QLoRA (4-bit NF4 quantization)",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix B",
+          "position_end": 52,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 245,
+          "docx_paragraph_index": 260
+        },
+        "cosine_similarity": 0.5899440646171612
+      }
+    ],
+    "gold_position": 245
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q15",
+    "split": "dev",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "cd6ad342d9a34172dd4ec6f4ef2f6e38bbf853ca8884f857a0dca277c35725d2",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 126,
+        "content": "Fine-tuning experiments were conducted on Qwen3-0.6B as the primary base model, across multiple QLoRA configurations. While the original research design proposed comparative evaluation across LLaMA 3, Mistral, and Qwen architectures, setup testing revealed that only Qwen3-0.6B was fully compatible with the NVIDIA T4 GPU (16GB VRAM) constraint within the project timeline. Complete fine-tuning runs with systematic metric evaluation were therefore conducted on Qwen3-0.6B exclusively. The evaluation compares multiple QLoRA configurations of Qwen3-0.6B against the Qwen3-0.6B zero-shot baseline, as detailed in Sections 4.3 and 4.5.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.2.2",
+          "position_end": 633,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 126,
+          "docx_paragraph_index": 136
+        },
+        "cosine_similarity": 0.756413459777832
+      },
+      {
+        "chunk_id": "5436c14874db026c7058c582e2f7ce2dab9f011d8096b25d1fc1db3979e089b5",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 104,
+        "content": "The study applies QLoRA fine-tuning to Qwen3-0.6B as the primary base model. While LLaMA 3, Mistral, and larger Qwen variants were considered during the planning phase, setup testing confirmed that Qwen3-0.6B provides the optimal compatibility with the available hardware constraints. LoRA hyperparameters explored include rank (r = 8, 16, 32), alpha scaling factors, and target module selection. All training is conducted using the Unsloth optimization library and Hugging Face PEFT on Google Colab with NVIDIA T4 GPU (16GB VRAM). Multiple training configurations are evaluated, with model checkpoints selected based on validation perplexity.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "position_end": 643,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 104,
+          "docx_paragraph_index": 113
+        },
+        "cosine_similarity": 0.690135635121394
+      },
+      {
+        "chunk_id": "dd3ea4044645b1516290ae582b12db17de967fd1f9ef0f2c0297dd0163cca353",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 244,
+        "content": "- Base Model: Qwen/Qwen3-0.6B",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix B",
+          "position_end": 29,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 244,
+          "docx_paragraph_index": 259
+        },
+        "cosine_similarity": 0.5741485274566906
+      }
+    ],
+    "gold_position": 126
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q16",
+    "split": "test",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "72e9e7413587dec9f182fa65dfd6c0272563488dfac44757d9dc5f4a0efcdbb6",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 65,
+        "content": "Low-Rank Adaptation (LoRA) is the most successful PEFT approach. It freezes pre-trained weights and injects trainable low-rank matrices into each layer, reducing trainable parameters by up to 10,000x while maintaining quality. QLoRA extends LoRA by quantizing frozen weights to 4-bit precision, enabling fine-tuning of very large models on consumer GPUs.",
+        "metadata": {
+          "chapter": 2,
+          "section": "2.1.2",
+          "position_end": 354,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 65,
+          "docx_paragraph_index": 73
+        },
+        "cosine_similarity": 0.7131278681020315
+      },
+      {
+        "chunk_id": "fa4aaa644e2db8275d85c9c862f683a124d6d25e4c9278a56573f77153afd324",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 86,
+        "content": "LoRA represents state-of-the-art parameter-efficient fine-tuning. It operates on the insight that weight updates during fine-tuning have low intrinsic rank. QLoRA extends this by storing frozen weights in 4-bit precision, enabling fine-tuning of large models (e.g., 7B–13B parameters) on consumer-grade GPUs such as the NVIDIA T4 (16GB VRAM). The Hugging Face Transformers library, PEFT library, and Unsloth framework together provide the primary technical stack for this research.",
+        "metadata": {
+          "chapter": 2,
+          "section": "2.5",
+          "position_end": 481,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 86,
+          "docx_paragraph_index": 94
+        },
+        "cosine_similarity": 0.688947126614382
+      },
+      {
+        "chunk_id": "431f71e4b019b60746423cf3960659348c50e763a34b44a78f8943444febd53d",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 245,
+        "content": "- Fine-tuning Method: QLoRA (4-bit NF4 quantization)",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix B",
+          "position_end": 52,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 245,
+          "docx_paragraph_index": 260
+        },
+        "cosine_similarity": 0.6335903346998379
+      }
+    ],
+    "gold_position": 65
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q17",
+    "split": "test",
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "883464f774e3b32bd4101ad75b4ec51d96dbf6c64b3171612950dd4befca99bf",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 249,
+        "content": "The following rubric was applied by both the AI Judge and human reviewers",
+        "metadata": {
+          "chapter": "appendices",
+          "section": "Appendix C",
+          "position_end": 73,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 249,
+          "docx_paragraph_index": 264
+        },
+        "cosine_similarity": 0.6492180259434042
+      },
+      {
+        "chunk_id": "1ae29a5ff6f89dd584179219a14f37acb91dc38ea27a8947b2af8d252bf85330",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 129,
+        "content": "All fine-tuned models demonstrated significant perplexity reduction compared to baselines. The fine-tuned Qwen3-0.6B model demonstrated clear improvement across evaluated dimensions compared to its zero-shot baseline. VRAM consumption during training was approximately 5.6GB out of 14.7GB available (38% utilization), confirming the hardware efficiency of the QLoRA approach on NVIDIA T4. Automated pedagogical evaluation using the AI Judge framework yielded an overall average score of 4.75/5.0, with Clarity and Encouragement dimensions achieving perfect scores (5.0/5.0) and Socratic Logic and Accuracy scoring 4.5/5.0. Detailed metric breakdowns are presented in Table 4.X.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.3.1",
+          "position_end": 677,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 129,
+          "docx_paragraph_index": 139
+        },
+        "cosine_similarity": 0.6164507727085798
+      },
+      {
+        "chunk_id": "393444da13df4eb851d7b01049dcc609dd869c325317bdb9618cd086c3eb149d",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 110,
+        "content": "Evaluation is conducted comparatively across baseline models (non-fine-tuned), fine-tuned variants with different data configurations, and fine-tuned variants with different hyperparameter settings. An LLM-as-judge approach using Claude provides scalable pedagogical quality assessment, validated against human expert ratings.",
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "position_end": 326,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 110,
+          "docx_paragraph_index": 119
+        },
+        "cosine_similarity": 0.6159832935353343
+      }
+    ],
+    "gold_position": 129
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q18",
+    "split": "test",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 184,
+        "content": "Integration with national Vietnamese educational platforms and LMS systems (Moodle, Canvas) to increase adoption and sustainability.",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.2",
+          "position_end": 132,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 184,
+          "docx_paragraph_index": 196
+        },
+        "cosine_similarity": 0.6980409622192433
+      },
+      {
+        "chunk_id": "462b7f2d655c105b835c1a51a1dd30cd86a05b38e9d725f9c66c490d3577edff",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 171,
+        "content": "The integrated web-based system—combining an administrative interface for data management and no-code fine-tuning, and a student-facing chatbot for flipped classroom support—demonstrates end-to-end feasibility and provides a replicable architecture for similar initiatives. The system directly addresses the critical support gap in flipped classroom implementation: the absence of real-time guidance during home-based independent study, a documented obstacle to effective flipped learning in Vietnamese secondary education.",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.1",
+          "position_end": 523,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 171,
+          "docx_paragraph_index": 183
+        },
+        "cosine_similarity": 0.49491170018385844
+      },
+      {
+        "chunk_id": "ba8d0b598a0686f0ec054f62819032d6b92aa8e807ba792fbd7e1ba4da1c9cb4",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 173,
+        "content": "6.2 Future Work",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.2",
+          "position_end": 15,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 173,
+          "docx_paragraph_index": 185
+        },
+        "cosine_similarity": 0.47474125479318197
+      }
+    ],
+    "gold_position": 184
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q19",
+    "split": "test",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 184,
+        "content": "Integration with national Vietnamese educational platforms and LMS systems (Moodle, Canvas) to increase adoption and sustainability.",
+        "metadata": {
+          "chapter": 6,
+          "section": "6.2",
+          "position_end": 132,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 184,
+          "docx_paragraph_index": 196
+        },
+        "cosine_similarity": 0.7099827220999941
+      },
+      {
+        "chunk_id": "8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 300307,
+        "content": "LMS | Learning Management System",
+        "metadata": {
+          "section": "table",
+          "row_index": 11,
+          "table_index": 3,
+          "position_end": 32,
+          "document_type": "capstone_project",
+          "position_type": "table_row",
+          "position_start": 0
+        },
+        "cosine_similarity": 0.5880037721396828
+      },
+      {
+        "chunk_id": "5b5640774bec06eef72ffa05fb179fb982d4324a8897cb094896118f3a438a79",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 49,
+        "content": "This study encompasses the following technical boundaries: subject coverage spans taught in Vietnamese secondary and high school education; the primary language of instruction and interaction is Vietnamese; base models include LLaMA 3, Mistral, and Qwen; fine-tuning methodology focuses on LoRA and related PEFT techniques; the dataset comprises approximately 746 curated student-AI conversation samples; and the web-based platform includes administrative and student-facing functional modules.",
+        "metadata": {
+          "chapter": 1,
+          "section": "1.5",
+          "position_end": 494,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 49,
+          "docx_paragraph_index": 56
+        },
+        "cosine_similarity": 0.46027551236232744
+      }
+    ],
+    "gold_position": 184
+  },
+  {
+    "strategy": "paragraph-filter-v1",
+    "question_id": "q20",
+    "split": "test",
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hits": [
+      {
+        "chunk_id": "2b1bad91ea2f27de2eb531c22df5a943e79aae98a0117eff3f290f1abdf94075",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 141,
+        "content": "The results confirm the core technical feasibility of the proposed approach: parameter-efficient fine-tuning on modest Vietnamese educational datasets can produce meaningfully improved AI tutoring behavior, deployable within academic resource constraints. The data quality findings have direct practical implications for institutions seeking to develop similar systems, suggesting that investment in expert data curation yields greater returns than investment in data quantity or compute scale.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.6",
+          "position_end": 494,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 141,
+          "docx_paragraph_index": 151
+        },
+        "cosine_similarity": 0.5376012876509123
+      },
+      {
+        "chunk_id": "4f8b42e4cf6cf80bc1d9a27467eaabc0653a0ce14e86c262fd46f9955746a953",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 136,
+        "content": "A qualitative comparison of models trained on curated versus unfiltered data consistently demonstrated that higher data quality produced meaningfully better pedagogical alignment, confirming the data-centric hypothesis central to this study. Quantitative comparison of quality-controlled versus unfiltered configurations is presented in Section 4.3, provides robust empirical support for prioritizing data curation over data quantity in educational fine-tuning pipelines.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.4",
+          "position_end": 471,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 136,
+          "docx_paragraph_index": 146
+        },
+        "cosine_similarity": 0.47028312441312115
+      },
+      {
+        "chunk_id": "5c21d75af9fe14e7e5469d887a3ba96facad559a121038af3def66575a59c877",
+        "document_id": "capstone-project-document",
+        "source": "starter\\data\\Capstone Project Document.docx",
+        "position": 131,
+        "content": "The most pronounced improvements were observed in pedagogical dimensions. The proportion of responses classified as guided inquiry (scaffolded, questioning, or step-by-step) increased from an average of 12% in baseline models to 68% in fine-tuned models (high-quality data configuration). Direct answer provision decreased from 71% to 19% on average. Vietnamese language quality scores improved by 34% on average, with particular gains in subject-specific terminology accuracy.",
+        "metadata": {
+          "chapter": 4,
+          "section": "4.3.2",
+          "position_end": 477,
+          "document_type": "capstone_project",
+          "position_type": "paragraph",
+          "position_start": 0,
+          "paragraph_index": 131,
+          "docx_paragraph_index": 141
+        },
+        "cosine_similarity": 0.4634579143847286
+      }
+    ],
+    "gold_position": 141
+  }
+]

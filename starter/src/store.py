@@ -57,7 +57,7 @@ class PgVectorStore:
         Return chunk ID, text, score and metadata. Parameterize user-supplied values.
         """
         filters = filters or {}
-        allowed = {"document_type", "section", "language", "document_id"}
+        allowed = {"document_type", "section", "chapter", "language", "document_id"}
         if set(filters) - allowed:
             raise ValueError(f"Unsupported metadata filter keys: {set(filters)-allowed}")
         clauses, params = ["strategy=%s"], [strategy]

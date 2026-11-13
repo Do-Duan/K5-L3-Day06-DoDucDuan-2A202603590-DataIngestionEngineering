@@ -1,0 +1,22 @@
+{
+  "locked_at": "2026-11-13T12:08:14+00:00",
+  "locked_before_pipeline_run": true,
+  "dev_sha256": "136e457f0f655d7d2375ca2a702bf5a12973a8d1fd146fd8776ac62abcce7495",
+  "test_sha256": "052548d883fdec51ffe1918f65fa21d8d8299e5609a815c32e559daf74f08720",
+  "test_ids": [
+    "q16",
+    "q17",
+    "q18",
+    "q19",
+    "q20"
+  ],
+  "policy": "Test là holdout độc lập: chưa xem kết quả pipeline khi tạo. Nếu sửa câu test sau khi đã xem kết quả, phải ghi rõ vào test_modified_after_results và test không còn là holdout độc lập.",
+  "test_modified_after_results": [
+    {
+      "id": "q18",
+      "reason": "Replaced Appendix C rubric question because DOCX formatting produced unstable section metadata; replaced with a Chapter 6 filter case at source position 184.",
+      "modified_at": "2026-11-13",
+      "test_is_independent_holdout": false
+    }
+  ]
+}

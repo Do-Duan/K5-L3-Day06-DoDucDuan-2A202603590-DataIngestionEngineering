@@ -1,0 +1,32 @@
+{
+  "fixed-v1/dev": {
+    "n": 15,
+    "hit_at_1": 10,
+    "evidence_hit_at_3": 13
+  },
+  "fixed-v1/test": {
+    "n": 5,
+    "hit_at_1": 3,
+    "evidence_hit_at_3": 4
+  },
+  "paragraph-filter-v1/dev": {
+    "n": 15,
+    "hit_at_1": 12,
+    "evidence_hit_at_3": 14
+  },
+  "paragraph-filter-v1/test": {
+    "n": 5,
+    "hit_at_1": 4,
+    "evidence_hit_at_3": 5
+  },
+  "paragraph-v1/dev": {
+    "n": 15,
+    "hit_at_1": 12,
+    "evidence_hit_at_3": 14
+  },
+  "paragraph-v1/test": {
+    "n": 5,
+    "hit_at_1": 4,
+    "evidence_hit_at_3": 5
+  }
+}

@@ -1,0 +1,1224 @@
+{
+  "method": "Author performed manual rubric audit; coherence sample is first 10 non-empty source paragraphs selected by order before scoring; metadata and grounding inspect top-3 for five current test questions.",
+  "test_holdout_note": "q18 was modified; test is not an untouched holdout. Scores are single-rater judgments.",
+  "coherence": [
+    {
+      "strategy": "fixed-v1",
+      "source_position": 1,
+      "source_text": "- Hanoi, April 2026 -",
+      "chunk_id": "de42e62707eeb1eb7def74d299521c94c1714598e248bc292fe1cd452bd359ad",
+      "chunk_text": "- Hanoi, April 2026 -",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "source_position": 1,
+      "source_text": "- Hanoi, April 2026 -",
+      "chunk_id": "de42e62707eeb1eb7def74d299521c94c1714598e248bc292fe1cd452bd359ad",
+      "chunk_text": "- Hanoi, April 2026 -",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "source_position": 1,
+      "source_text": "- Hanoi, April 2026 -",
+      "chunk_id": "de42e62707eeb1eb7def74d299521c94c1714598e248bc292fe1cd452bd359ad",
+      "chunk_text": "- Hanoi, April 2026 -",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "fixed-v1",
+      "source_position": 2,
+      "source_text": "ABSTRACT",
+      "chunk_id": "4e22c6e302766c4064e4d731455c6f2ce3cba0260f3c4cc276d70ec0f9810ea6",
+      "chunk_text": "ABSTRACT",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "source_position": 2,
+      "source_text": "ABSTRACT",
+      "chunk_id": "4e22c6e302766c4064e4d731455c6f2ce3cba0260f3c4cc276d70ec0f9810ea6",
+      "chunk_text": "ABSTRACT",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "source_position": 2,
+      "source_text": "ABSTRACT",
+      "chunk_id": "4e22c6e302766c4064e4d731455c6f2ce3cba0260f3c4cc276d70ec0f9810ea6",
+      "chunk_text": "ABSTRACT",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "fixed-v1",
+      "source_position": 3,
+      "source_text": "The rapid advancement of Large Language Models (LLMs) and parameter-efficient fine-tuning techniques presents a timely opportunity to address longstanding challenges in Vietnamese secondary education, particularly within the Flipped Classroom model. Vietnamese students in grades 6–12 frequently struggle with self-directed pre-class preparation, lacking access to on-demand, pedagogically appropriate guidance when encountering difficulties during independent study. Simultaneously, existing AI tutoring tools are either financially inaccessible to Vietnamese institutions or fail to account for the linguistic and curricular specifics of the Vietnamese educational context.",
+      "chunk_id": "15b4a694fe1487b0552037158ab726b44bd275921c48859ccf455d3da09afa71",
+      "chunk_text": "The rapid advancement of Large Language Models (LLMs) and parameter-efficient fine-tuning techniques presents a timely opportunity to address longstanding challenges in Vietnamese secondary education, particularly within the Flipped Classroom model. Vietnamese students in grades 6–12 frequently struggle with self-directed pre-class preparation, lacking access to on-demand, pedagogically appropriate guidance when encountering difficulties during independent study. Simultaneously, existing AI tuto",
+      "score": 1,
+      "reason": "Đoạn nguồn dài hơn cửa sổ; chunk này chỉ giữ phần đầu, ngữ cảnh/ý còn ở chunk kế."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "source_position": 3,
+      "source_text": "The rapid advancement of Large Language Models (LLMs) and parameter-efficient fine-tuning techniques presents a timely opportunity to address longstanding challenges in Vietnamese secondary education, particularly within the Flipped Classroom model. Vietnamese students in grades 6–12 frequently struggle with self-directed pre-class preparation, lacking access to on-demand, pedagogically appropriate guidance when encountering difficulties during independent study. Simultaneously, existing AI tutoring tools are either financially inaccessible to Vietnamese institutions or fail to account for the linguistic and curricular specifics of the Vietnamese educational context.",
+      "chunk_id": "6ce223bc6f69162903af057ec9d3a8fe8a93e0c312c2dadbd1bc93bff89414b4",
+      "chunk_text": "The rapid advancement of Large Language Models (LLMs) and parameter-efficient fine-tuning techniques presents a timely opportunity to address longstanding challenges in Vietnamese secondary education, particularly within the Flipped Classroom model. Vietnamese students in grades 6–12 frequently struggle with self-directed pre-class preparation, lacking access to on-demand, pedagogically appropriate guidance when encountering difficulties during independent study. Simultaneously, existing AI tutoring tools are either financially inaccessible to Vietnamese institutions or fail to account for the linguistic and curricular specifics of the Vietnamese educational context.",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "source_position": 3,
+      "source_text": "The rapid advancement of Large Language Models (LLMs) and parameter-efficient fine-tuning techniques presents a timely opportunity to address longstanding challenges in Vietnamese secondary education, particularly within the Flipped Classroom model. Vietnamese students in grades 6–12 frequently struggle with self-directed pre-class preparation, lacking access to on-demand, pedagogically appropriate guidance when encountering difficulties during independent study. Simultaneously, existing AI tutoring tools are either financially inaccessible to Vietnamese institutions or fail to account for the linguistic and curricular specifics of the Vietnamese educational context.",
+      "chunk_id": "6ce223bc6f69162903af057ec9d3a8fe8a93e0c312c2dadbd1bc93bff89414b4",
+      "chunk_text": "The rapid advancement of Large Language Models (LLMs) and parameter-efficient fine-tuning techniques presents a timely opportunity to address longstanding challenges in Vietnamese secondary education, particularly within the Flipped Classroom model. Vietnamese students in grades 6–12 frequently struggle with self-directed pre-class preparation, lacking access to on-demand, pedagogically appropriate guidance when encountering difficulties during independent study. Simultaneously, existing AI tutoring tools are either financially inaccessible to Vietnamese institutions or fail to account for the linguistic and curricular specifics of the Vietnamese educational context.",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "fixed-v1",
+      "source_position": 4,
+      "source_text": "This research investigates the application of parameter-efficient fine-tuning techniques—primarily Low-Rank Adaptation (LoRA) and Quantized LoRA (QLoRA)—to adapt open-source Large Language Models (LLaMA 3, Mistral, Qwen) for Vietnamese secondary and high school tutoring. The study constructs and curates a Vietnamese K-12 educational conversation dataset of approximately 746 curated samples, systematically investigating the relationship between data quality characteristics and fine-tuned model behavior. A comparative evaluation framework assessing both technical language quality metrics (perplexity, BERTScore) and pedagogical appropriateness dimensions (guided inquiry, scaffolding, Socratic questioning) is applied across baseline and fine-tuned model variants.",
+      "chunk_id": "8599f052ff21e821e973849af9eff2a3ac2dbd97a2dc85e1599e7d55e3ec9106",
+      "chunk_text": "This research investigates the application of parameter-efficient fine-tuning techniques—primarily Low-Rank Adaptation (LoRA) and Quantized LoRA (QLoRA)—to adapt open-source Large Language Models (LLaMA 3, Mistral, Qwen) for Vietnamese secondary and high school tutoring. The study constructs and curates a Vietnamese K-12 educational conversation dataset of approximately 746 curated samples, systematically investigating the relationship between data quality characteristics and fine-tuned model be",
+      "score": 1,
+      "reason": "Đoạn nguồn dài hơn cửa sổ; chunk này chỉ giữ phần đầu, ngữ cảnh/ý còn ở chunk kế."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "source_position": 4,
+      "source_text": "This research investigates the application of parameter-efficient fine-tuning techniques—primarily Low-Rank Adaptation (LoRA) and Quantized LoRA (QLoRA)—to adapt open-source Large Language Models (LLaMA 3, Mistral, Qwen) for Vietnamese secondary and high school tutoring. The study constructs and curates a Vietnamese K-12 educational conversation dataset of approximately 746 curated samples, systematically investigating the relationship between data quality characteristics and fine-tuned model behavior. A comparative evaluation framework assessing both technical language quality metrics (perplexity, BERTScore) and pedagogical appropriateness dimensions (guided inquiry, scaffolding, Socratic questioning) is applied across baseline and fine-tuned model variants.",
+      "chunk_id": "63a04d46893f00a7d11abb673812179dcb97accb1c9b6896eb25ead02bc05f4e",
+      "chunk_text": "This research investigates the application of parameter-efficient fine-tuning techniques—primarily Low-Rank Adaptation (LoRA) and Quantized LoRA (QLoRA)—to adapt open-source Large Language Models (LLaMA 3, Mistral, Qwen) for Vietnamese secondary and high school tutoring. The study constructs and curates a Vietnamese K-12 educational conversation dataset of approximately 746 curated samples, systematically investigating the relationship between data quality characteristics and fine-tuned model behavior. A comparative evaluation framework assessing both technical language quality metrics (perplexity, BERTScore) and pedagogical appropriateness dimensions (guided inquiry, scaffolding, Socratic questioning) is applied across baseline and fine-tuned model variants.",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "source_position": 4,
+      "source_text": "This research investigates the application of parameter-efficient fine-tuning techniques—primarily Low-Rank Adaptation (LoRA) and Quantized LoRA (QLoRA)—to adapt open-source Large Language Models (LLaMA 3, Mistral, Qwen) for Vietnamese secondary and high school tutoring. The study constructs and curates a Vietnamese K-12 educational conversation dataset of approximately 746 curated samples, systematically investigating the relationship between data quality characteristics and fine-tuned model behavior. A comparative evaluation framework assessing both technical language quality metrics (perplexity, BERTScore) and pedagogical appropriateness dimensions (guided inquiry, scaffolding, Socratic questioning) is applied across baseline and fine-tuned model variants.",
+      "chunk_id": "63a04d46893f00a7d11abb673812179dcb97accb1c9b6896eb25ead02bc05f4e",
+      "chunk_text": "This research investigates the application of parameter-efficient fine-tuning techniques—primarily Low-Rank Adaptation (LoRA) and Quantized LoRA (QLoRA)—to adapt open-source Large Language Models (LLaMA 3, Mistral, Qwen) for Vietnamese secondary and high school tutoring. The study constructs and curates a Vietnamese K-12 educational conversation dataset of approximately 746 curated samples, systematically investigating the relationship between data quality characteristics and fine-tuned model behavior. A comparative evaluation framework assessing both technical language quality metrics (perplexity, BERTScore) and pedagogical appropriateness dimensions (guided inquiry, scaffolding, Socratic questioning) is applied across baseline and fine-tuned model variants.",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "fixed-v1",
+      "source_position": 5,
+      "source_text": "Results demonstrate that LoRA-based fine-tuning significantly improves both Vietnamese language quality and pedagogical alignment compared to baseline models, with data quality emerging as the dominant determinant of educational effectiveness. Fine-tuned models exhibit substantially greater tendencies toward guided inquiry and scaffolded explanation rather than direct answer provision. The research further delivers a functional web-based learning support system integrating the fine-tuned model, accessible to students during independent study phases of flipped classroom instruction.",
+      "chunk_id": "7b936545e8eb79a55bc2fee24d0aa1d59f0daae8037421f528aa1cd981c256bd",
+      "chunk_text": "Results demonstrate that LoRA-based fine-tuning significantly improves both Vietnamese language quality and pedagogical alignment compared to baseline models, with data quality emerging as the dominant determinant of educational effectiveness. Fine-tuned models exhibit substantially greater tendencies toward guided inquiry and scaffolded explanation rather than direct answer provision. The research further delivers a functional web-based learning support system integrating the fine-tuned model, ",
+      "score": 1,
+      "reason": "Đoạn nguồn dài hơn cửa sổ; chunk này chỉ giữ phần đầu, ngữ cảnh/ý còn ở chunk kế."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "source_position": 5,
+      "source_text": "Results demonstrate that LoRA-based fine-tuning significantly improves both Vietnamese language quality and pedagogical alignment compared to baseline models, with data quality emerging as the dominant determinant of educational effectiveness. Fine-tuned models exhibit substantially greater tendencies toward guided inquiry and scaffolded explanation rather than direct answer provision. The research further delivers a functional web-based learning support system integrating the fine-tuned model, accessible to students during independent study phases of flipped classroom instruction.",
+      "chunk_id": "cab33fd87877f8b488b9378e77ca640443102ebd9488fcc1bb810ed0bc760a0b",
+      "chunk_text": "Results demonstrate that LoRA-based fine-tuning significantly improves both Vietnamese language quality and pedagogical alignment compared to baseline models, with data quality emerging as the dominant determinant of educational effectiveness. Fine-tuned models exhibit substantially greater tendencies toward guided inquiry and scaffolded explanation rather than direct answer provision. The research further delivers a functional web-based learning support system integrating the fine-tuned model, accessible to students during independent study phases of flipped classroom instruction.",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "source_position": 5,
+      "source_text": "Results demonstrate that LoRA-based fine-tuning significantly improves both Vietnamese language quality and pedagogical alignment compared to baseline models, with data quality emerging as the dominant determinant of educational effectiveness. Fine-tuned models exhibit substantially greater tendencies toward guided inquiry and scaffolded explanation rather than direct answer provision. The research further delivers a functional web-based learning support system integrating the fine-tuned model, accessible to students during independent study phases of flipped classroom instruction.",
+      "chunk_id": "cab33fd87877f8b488b9378e77ca640443102ebd9488fcc1bb810ed0bc760a0b",
+      "chunk_text": "Results demonstrate that LoRA-based fine-tuning significantly improves both Vietnamese language quality and pedagogical alignment compared to baseline models, with data quality emerging as the dominant determinant of educational effectiveness. Fine-tuned models exhibit substantially greater tendencies toward guided inquiry and scaffolded explanation rather than direct answer provision. The research further delivers a functional web-based learning support system integrating the fine-tuned model, accessible to students during independent study phases of flipped classroom instruction.",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "fixed-v1",
+      "source_position": 6,
+      "source_text": "This work demonstrates that cost-effective, pedagogically aligned AI tutoring for Vietnamese secondary students is achievable using open-source models and parameter-efficient fine-tuning, providing a replicable methodology and baseline benchmarks for future Vietnamese educational AI research. The findings have direct implications for educational equity, flipped classroom implementation, and the broader development of educational AI in low-resource language contexts.",
+      "chunk_id": "bb32c3328fd45e0204316d5b18554ea627d078000977f801f0630b1b4c3dbcd2",
+      "chunk_text": "This work demonstrates that cost-effective, pedagogically aligned AI tutoring for Vietnamese secondary students is achievable using open-source models and parameter-efficient fine-tuning, providing a replicable methodology and baseline benchmarks for future Vietnamese educational AI research. The findings have direct implications for educational equity, flipped classroom implementation, and the broader development of educational AI in low-resource language contexts.",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "source_position": 6,
+      "source_text": "This work demonstrates that cost-effective, pedagogically aligned AI tutoring for Vietnamese secondary students is achievable using open-source models and parameter-efficient fine-tuning, providing a replicable methodology and baseline benchmarks for future Vietnamese educational AI research. The findings have direct implications for educational equity, flipped classroom implementation, and the broader development of educational AI in low-resource language contexts.",
+      "chunk_id": "bb32c3328fd45e0204316d5b18554ea627d078000977f801f0630b1b4c3dbcd2",
+      "chunk_text": "This work demonstrates that cost-effective, pedagogically aligned AI tutoring for Vietnamese secondary students is achievable using open-source models and parameter-efficient fine-tuning, providing a replicable methodology and baseline benchmarks for future Vietnamese educational AI research. The findings have direct implications for educational equity, flipped classroom implementation, and the broader development of educational AI in low-resource language contexts.",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "source_position": 6,
+      "source_text": "This work demonstrates that cost-effective, pedagogically aligned AI tutoring for Vietnamese secondary students is achievable using open-source models and parameter-efficient fine-tuning, providing a replicable methodology and baseline benchmarks for future Vietnamese educational AI research. The findings have direct implications for educational equity, flipped classroom implementation, and the broader development of educational AI in low-resource language contexts.",
+      "chunk_id": "bb32c3328fd45e0204316d5b18554ea627d078000977f801f0630b1b4c3dbcd2",
+      "chunk_text": "This work demonstrates that cost-effective, pedagogically aligned AI tutoring for Vietnamese secondary students is achievable using open-source models and parameter-efficient fine-tuning, providing a replicable methodology and baseline benchmarks for future Vietnamese educational AI research. The findings have direct implications for educational equity, flipped classroom implementation, and the broader development of educational AI in low-resource language contexts.",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "fixed-v1",
+      "source_position": 7,
+      "source_text": "ACKNOWLEDGEMENT",
+      "chunk_id": "2c6da757f430f9a332a86952de369704906875d036a7c80e092dc7e434f8c0fa",
+      "chunk_text": "ACKNOWLEDGEMENT",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "source_position": 7,
+      "source_text": "ACKNOWLEDGEMENT",
+      "chunk_id": "2c6da757f430f9a332a86952de369704906875d036a7c80e092dc7e434f8c0fa",
+      "chunk_text": "ACKNOWLEDGEMENT",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "source_position": 7,
+      "source_text": "ACKNOWLEDGEMENT",
+      "chunk_id": "2c6da757f430f9a332a86952de369704906875d036a7c80e092dc7e434f8c0fa",
+      "chunk_text": "ACKNOWLEDGEMENT",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "fixed-v1",
+      "source_position": 8,
+      "source_text": "This research project represents a significant academic endeavor, and its successful completion would not have been possible without the support, guidance, and encouragement of many individuals and institutions. The research team would like to express sincere appreciation to all those who contributed to the development and realization of this work.",
+      "chunk_id": "4b1d93bf7eed914a31072e93df2084aae78c1cdf79fdf6c2618e858ebc6850ad",
+      "chunk_text": "This research project represents a significant academic endeavor, and its successful completion would not have been possible without the support, guidance, and encouragement of many individuals and institutions. The research team would like to express sincere appreciation to all those who contributed to the development and realization of this work.",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "source_position": 8,
+      "source_text": "This research project represents a significant academic endeavor, and its successful completion would not have been possible without the support, guidance, and encouragement of many individuals and institutions. The research team would like to express sincere appreciation to all those who contributed to the development and realization of this work.",
+      "chunk_id": "4b1d93bf7eed914a31072e93df2084aae78c1cdf79fdf6c2618e858ebc6850ad",
+      "chunk_text": "This research project represents a significant academic endeavor, and its successful completion would not have been possible without the support, guidance, and encouragement of many individuals and institutions. The research team would like to express sincere appreciation to all those who contributed to the development and realization of this work.",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "source_position": 8,
+      "source_text": "This research project represents a significant academic endeavor, and its successful completion would not have been possible without the support, guidance, and encouragement of many individuals and institutions. The research team would like to express sincere appreciation to all those who contributed to the development and realization of this work.",
+      "chunk_id": "4b1d93bf7eed914a31072e93df2084aae78c1cdf79fdf6c2618e858ebc6850ad",
+      "chunk_text": "This research project represents a significant academic endeavor, and its successful completion would not have been possible without the support, guidance, and encouragement of many individuals and institutions. The research team would like to express sincere appreciation to all those who contributed to the development and realization of this work.",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "fixed-v1",
+      "source_position": 9,
+      "source_text": "First and foremost, heartfelt gratitude is extended to our supervisor, Ms. Huynh Trieu Vi, whose supervision, insightful feedback, and unwavering support have been invaluable throughout the research process. Ms. Vi's expertise in educational technology and commitment to academic excellence provided both direction and inspiration, helping to shape the research into a meaningful and coherent study.",
+      "chunk_id": "973a3168436297751917c51290bd15d3a641c5408ee0ab0f19d09fab98b329c9",
+      "chunk_text": "First and foremost, heartfelt gratitude is extended to our supervisor, Ms. Huynh Trieu Vi, whose supervision, insightful feedback, and unwavering support have been invaluable throughout the research process. Ms. Vi's expertise in educational technology and commitment to academic excellence provided both direction and inspiration, helping to shape the research into a meaningful and coherent study.",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "source_position": 9,
+      "source_text": "First and foremost, heartfelt gratitude is extended to our supervisor, Ms. Huynh Trieu Vi, whose supervision, insightful feedback, and unwavering support have been invaluable throughout the research process. Ms. Vi's expertise in educational technology and commitment to academic excellence provided both direction and inspiration, helping to shape the research into a meaningful and coherent study.",
+      "chunk_id": "973a3168436297751917c51290bd15d3a641c5408ee0ab0f19d09fab98b329c9",
+      "chunk_text": "First and foremost, heartfelt gratitude is extended to our supervisor, Ms. Huynh Trieu Vi, whose supervision, insightful feedback, and unwavering support have been invaluable throughout the research process. Ms. Vi's expertise in educational technology and commitment to academic excellence provided both direction and inspiration, helping to shape the research into a meaningful and coherent study.",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "source_position": 9,
+      "source_text": "First and foremost, heartfelt gratitude is extended to our supervisor, Ms. Huynh Trieu Vi, whose supervision, insightful feedback, and unwavering support have been invaluable throughout the research process. Ms. Vi's expertise in educational technology and commitment to academic excellence provided both direction and inspiration, helping to shape the research into a meaningful and coherent study.",
+      "chunk_id": "973a3168436297751917c51290bd15d3a641c5408ee0ab0f19d09fab98b329c9",
+      "chunk_text": "First and foremost, heartfelt gratitude is extended to our supervisor, Ms. Huynh Trieu Vi, whose supervision, insightful feedback, and unwavering support have been invaluable throughout the research process. Ms. Vi's expertise in educational technology and commitment to academic excellence provided both direction and inspiration, helping to shape the research into a meaningful and coherent study.",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "fixed-v1",
+      "source_position": 10,
+      "source_text": "The team also wishes to thank the faculty and staff of FPT University's School of Information Technology for providing access to computational resources, academic guidance, and a stimulating research environment throughout the capstone project process.",
+      "chunk_id": "3b43a17c2c2dc329c8680a814345b26dd201cd208ccd23cfbd558b05eabe51ef",
+      "chunk_text": "The team also wishes to thank the faculty and staff of FPT University's School of Information Technology for providing access to computational resources, academic guidance, and a stimulating research environment throughout the capstone project process.",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "source_position": 10,
+      "source_text": "The team also wishes to thank the faculty and staff of FPT University's School of Information Technology for providing access to computational resources, academic guidance, and a stimulating research environment throughout the capstone project process.",
+      "chunk_id": "3b43a17c2c2dc329c8680a814345b26dd201cd208ccd23cfbd558b05eabe51ef",
+      "chunk_text": "The team also wishes to thank the faculty and staff of FPT University's School of Information Technology for providing access to computational resources, academic guidance, and a stimulating research environment throughout the capstone project process.",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "source_position": 10,
+      "source_text": "The team also wishes to thank the faculty and staff of FPT University's School of Information Technology for providing access to computational resources, academic guidance, and a stimulating research environment throughout the capstone project process.",
+      "chunk_id": "3b43a17c2c2dc329c8680a814345b26dd201cd208ccd23cfbd558b05eabe51ef",
+      "chunk_text": "The team also wishes to thank the faculty and staff of FPT University's School of Information Technology for providing access to computational resources, academic guidance, and a stimulating research environment throughout the capstone project process.",
+      "score": 2,
+      "reason": "Đoạn nguồn được giữ trọn, có thể đọc độc lập."
+    }
+  ],
+  "metadata": [
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q16",
+      "rank": 1,
+      "chunk_id": "72e9e7413587dec9f182fa65dfd6c0272563488dfac44757d9dc5f4a0efcdbb6",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 65,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q16",
+      "rank": 2,
+      "chunk_id": "fa4aaa644e2db8275d85c9c862f683a124d6d25e4c9278a56573f77153afd324",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 86,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q16",
+      "rank": 3,
+      "chunk_id": "431f71e4b019b60746423cf3960659348c50e763a34b44a78f8943444febd53d",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 245,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q17",
+      "rank": 1,
+      "chunk_id": "883464f774e3b32bd4101ad75b4ec51d96dbf6c64b3171612950dd4befca99bf",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 249,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q17",
+      "rank": 2,
+      "chunk_id": "393444da13df4eb851d7b01049dcc609dd869c325317bdb9618cd086c3eb149d",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 110,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q17",
+      "rank": 3,
+      "chunk_id": "581a0b5154802c6a784262ac8088ca9a97e94719806d7f214e4e430c78a509c8",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 129,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q18",
+      "rank": 1,
+      "chunk_id": "19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 184,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q18",
+      "rank": 2,
+      "chunk_id": "8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 300307,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q18",
+      "rank": 3,
+      "chunk_id": "6565ae11a2aa268b97582d7be5cd300565c99087ad003f2920264ac8e0f1a16f",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 92,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q19",
+      "rank": 1,
+      "chunk_id": "19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 184,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q19",
+      "rank": 2,
+      "chunk_id": "8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 300307,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q19",
+      "rank": 3,
+      "chunk_id": "5b5640774bec06eef72ffa05fb179fb982d4324a8897cb094896118f3a438a79",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 49,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q20",
+      "rank": 1,
+      "chunk_id": "4afcf740268ab16f5683cbd40fa0e6274a3600646f84d211ea19bc4cae911f12",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 170,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q20",
+      "rank": 2,
+      "chunk_id": "2b1bad91ea2f27de2eb531c22df5a943e79aae98a0117eff3f290f1abdf94075",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 141,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q20",
+      "rank": 3,
+      "chunk_id": "4f8b42e4cf6cf80bc1d9a27467eaabc0653a0ce14e86c262fd46f9955746a953",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 136,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q16",
+      "rank": 1,
+      "chunk_id": "72e9e7413587dec9f182fa65dfd6c0272563488dfac44757d9dc5f4a0efcdbb6",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 65,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q16",
+      "rank": 2,
+      "chunk_id": "fa4aaa644e2db8275d85c9c862f683a124d6d25e4c9278a56573f77153afd324",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 86,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q16",
+      "rank": 3,
+      "chunk_id": "431f71e4b019b60746423cf3960659348c50e763a34b44a78f8943444febd53d",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 245,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q17",
+      "rank": 1,
+      "chunk_id": "883464f774e3b32bd4101ad75b4ec51d96dbf6c64b3171612950dd4befca99bf",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 249,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q17",
+      "rank": 2,
+      "chunk_id": "1ae29a5ff6f89dd584179219a14f37acb91dc38ea27a8947b2af8d252bf85330",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 129,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q17",
+      "rank": 3,
+      "chunk_id": "393444da13df4eb851d7b01049dcc609dd869c325317bdb9618cd086c3eb149d",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 110,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q18",
+      "rank": 1,
+      "chunk_id": "19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 184,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q18",
+      "rank": 2,
+      "chunk_id": "8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 300307,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q18",
+      "rank": 3,
+      "chunk_id": "462b7f2d655c105b835c1a51a1dd30cd86a05b38e9d725f9c66c490d3577edff",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 171,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q19",
+      "rank": 1,
+      "chunk_id": "19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 184,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q19",
+      "rank": 2,
+      "chunk_id": "8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 300307,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q19",
+      "rank": 3,
+      "chunk_id": "5b5640774bec06eef72ffa05fb179fb982d4324a8897cb094896118f3a438a79",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 49,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q20",
+      "rank": 1,
+      "chunk_id": "2b1bad91ea2f27de2eb531c22df5a943e79aae98a0117eff3f290f1abdf94075",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 141,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q20",
+      "rank": 2,
+      "chunk_id": "4f8b42e4cf6cf80bc1d9a27467eaabc0653a0ce14e86c262fd46f9955746a953",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 136,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q20",
+      "rank": 3,
+      "chunk_id": "5c21d75af9fe14e7e5469d887a3ba96facad559a121038af3def66575a59c877",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 131,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q16",
+      "rank": 1,
+      "chunk_id": "72e9e7413587dec9f182fa65dfd6c0272563488dfac44757d9dc5f4a0efcdbb6",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 65,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q16",
+      "rank": 2,
+      "chunk_id": "fa4aaa644e2db8275d85c9c862f683a124d6d25e4c9278a56573f77153afd324",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 86,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q16",
+      "rank": 3,
+      "chunk_id": "431f71e4b019b60746423cf3960659348c50e763a34b44a78f8943444febd53d",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 245,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q17",
+      "rank": 1,
+      "chunk_id": "883464f774e3b32bd4101ad75b4ec51d96dbf6c64b3171612950dd4befca99bf",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 249,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q17",
+      "rank": 2,
+      "chunk_id": "1ae29a5ff6f89dd584179219a14f37acb91dc38ea27a8947b2af8d252bf85330",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 129,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q17",
+      "rank": 3,
+      "chunk_id": "393444da13df4eb851d7b01049dcc609dd869c325317bdb9618cd086c3eb149d",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 110,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q18",
+      "rank": 1,
+      "chunk_id": "19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 184,
+      "metadata_complete_correct": true,
+      "filter_required": true,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q18",
+      "rank": 2,
+      "chunk_id": "462b7f2d655c105b835c1a51a1dd30cd86a05b38e9d725f9c66c490d3577edff",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 171,
+      "metadata_complete_correct": true,
+      "filter_required": true,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q18",
+      "rank": 3,
+      "chunk_id": "ba8d0b598a0686f0ec054f62819032d6b92aa8e807ba792fbd7e1ba4da1c9cb4",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 173,
+      "metadata_complete_correct": true,
+      "filter_required": true,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q19",
+      "rank": 1,
+      "chunk_id": "19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 184,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q19",
+      "rank": 2,
+      "chunk_id": "8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 300307,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q19",
+      "rank": 3,
+      "chunk_id": "5b5640774bec06eef72ffa05fb179fb982d4324a8897cb094896118f3a438a79",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 49,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q20",
+      "rank": 1,
+      "chunk_id": "2b1bad91ea2f27de2eb531c22df5a943e79aae98a0117eff3f290f1abdf94075",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 141,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q20",
+      "rank": 2,
+      "chunk_id": "4f8b42e4cf6cf80bc1d9a27467eaabc0653a0ce14e86c262fd46f9955746a953",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 136,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q20",
+      "rank": 3,
+      "chunk_id": "5c21d75af9fe14e7e5469d887a3ba96facad559a121038af3def66575a59c877",
+      "source": "starter\\data\\Capstone Project Document.docx",
+      "position": 131,
+      "metadata_complete_correct": true,
+      "filter_required": false,
+      "filter_compliant": true,
+      "note": "Source/document and paragraph/row position checked against trace metadata."
+    }
+  ],
+  "grounding": [
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q16",
+      "rank": 1,
+      "grounding_score": 2,
+      "note": "Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.",
+      "chunk_id": "72e9e7413587dec9f182fa65dfd6c0272563488dfac44757d9dc5f4a0efcdbb6"
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q16",
+      "rank": 2,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "fa4aaa644e2db8275d85c9c862f683a124d6d25e4c9278a56573f77153afd324"
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q16",
+      "rank": 3,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "431f71e4b019b60746423cf3960659348c50e763a34b44a78f8943444febd53d"
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q17",
+      "rank": 1,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "883464f774e3b32bd4101ad75b4ec51d96dbf6c64b3171612950dd4befca99bf"
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q17",
+      "rank": 2,
+      "grounding_score": 1,
+      "note": "Có chủ đề liên quan nhưng không đủ bằng chứng cho câu hỏi.",
+      "chunk_id": "393444da13df4eb851d7b01049dcc609dd869c325317bdb9618cd086c3eb149d"
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q17",
+      "rank": 3,
+      "grounding_score": 1,
+      "note": "Cùng vị trí gold hoặc nội dung liên quan nhưng chưa đủ evidence gold.",
+      "chunk_id": "581a0b5154802c6a784262ac8088ca9a97e94719806d7f214e4e430c78a509c8"
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q18",
+      "rank": 1,
+      "grounding_score": 2,
+      "note": "Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.",
+      "chunk_id": "19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b"
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q18",
+      "rank": 2,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba"
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q18",
+      "rank": 3,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "6565ae11a2aa268b97582d7be5cd300565c99087ad003f2920264ac8e0f1a16f"
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q19",
+      "rank": 1,
+      "grounding_score": 2,
+      "note": "Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.",
+      "chunk_id": "19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b"
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q19",
+      "rank": 2,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba"
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q19",
+      "rank": 3,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "5b5640774bec06eef72ffa05fb179fb982d4324a8897cb094896118f3a438a79"
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q20",
+      "rank": 1,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "4afcf740268ab16f5683cbd40fa0e6274a3600646f84d211ea19bc4cae911f12"
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q20",
+      "rank": 2,
+      "grounding_score": 2,
+      "note": "Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.",
+      "chunk_id": "2b1bad91ea2f27de2eb531c22df5a943e79aae98a0117eff3f290f1abdf94075"
+    },
+    {
+      "strategy": "fixed-v1",
+      "question_id": "q20",
+      "rank": 3,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "4f8b42e4cf6cf80bc1d9a27467eaabc0653a0ce14e86c262fd46f9955746a953"
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q16",
+      "rank": 1,
+      "grounding_score": 2,
+      "note": "Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.",
+      "chunk_id": "72e9e7413587dec9f182fa65dfd6c0272563488dfac44757d9dc5f4a0efcdbb6"
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q16",
+      "rank": 2,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "fa4aaa644e2db8275d85c9c862f683a124d6d25e4c9278a56573f77153afd324"
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q16",
+      "rank": 3,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "431f71e4b019b60746423cf3960659348c50e763a34b44a78f8943444febd53d"
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q17",
+      "rank": 1,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "883464f774e3b32bd4101ad75b4ec51d96dbf6c64b3171612950dd4befca99bf"
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q17",
+      "rank": 2,
+      "grounding_score": 2,
+      "note": "Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.",
+      "chunk_id": "1ae29a5ff6f89dd584179219a14f37acb91dc38ea27a8947b2af8d252bf85330"
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q17",
+      "rank": 3,
+      "grounding_score": 1,
+      "note": "Có chủ đề liên quan nhưng không đủ bằng chứng cho câu hỏi.",
+      "chunk_id": "393444da13df4eb851d7b01049dcc609dd869c325317bdb9618cd086c3eb149d"
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q18",
+      "rank": 1,
+      "grounding_score": 2,
+      "note": "Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.",
+      "chunk_id": "19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b"
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q18",
+      "rank": 2,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba"
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q18",
+      "rank": 3,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "462b7f2d655c105b835c1a51a1dd30cd86a05b38e9d725f9c66c490d3577edff"
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q19",
+      "rank": 1,
+      "grounding_score": 2,
+      "note": "Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.",
+      "chunk_id": "19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b"
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q19",
+      "rank": 2,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba"
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q19",
+      "rank": 3,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "5b5640774bec06eef72ffa05fb179fb982d4324a8897cb094896118f3a438a79"
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q20",
+      "rank": 1,
+      "grounding_score": 2,
+      "note": "Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.",
+      "chunk_id": "2b1bad91ea2f27de2eb531c22df5a943e79aae98a0117eff3f290f1abdf94075"
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q20",
+      "rank": 2,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "4f8b42e4cf6cf80bc1d9a27467eaabc0653a0ce14e86c262fd46f9955746a953"
+    },
+    {
+      "strategy": "paragraph-v1",
+      "question_id": "q20",
+      "rank": 3,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "5c21d75af9fe14e7e5469d887a3ba96facad559a121038af3def66575a59c877"
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q16",
+      "rank": 1,
+      "grounding_score": 2,
+      "note": "Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.",
+      "chunk_id": "72e9e7413587dec9f182fa65dfd6c0272563488dfac44757d9dc5f4a0efcdbb6"
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q16",
+      "rank": 2,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "fa4aaa644e2db8275d85c9c862f683a124d6d25e4c9278a56573f77153afd324"
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q16",
+      "rank": 3,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "431f71e4b019b60746423cf3960659348c50e763a34b44a78f8943444febd53d"
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q17",
+      "rank": 1,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "883464f774e3b32bd4101ad75b4ec51d96dbf6c64b3171612950dd4befca99bf"
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q17",
+      "rank": 2,
+      "grounding_score": 2,
+      "note": "Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.",
+      "chunk_id": "1ae29a5ff6f89dd584179219a14f37acb91dc38ea27a8947b2af8d252bf85330"
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q17",
+      "rank": 3,
+      "grounding_score": 1,
+      "note": "Có chủ đề liên quan nhưng không đủ bằng chứng cho câu hỏi.",
+      "chunk_id": "393444da13df4eb851d7b01049dcc609dd869c325317bdb9618cd086c3eb149d"
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q18",
+      "rank": 1,
+      "grounding_score": 2,
+      "note": "Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.",
+      "chunk_id": "19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b"
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q18",
+      "rank": 2,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "462b7f2d655c105b835c1a51a1dd30cd86a05b38e9d725f9c66c490d3577edff"
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q18",
+      "rank": 3,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "ba8d0b598a0686f0ec054f62819032d6b92aa8e807ba792fbd7e1ba4da1c9cb4"
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q19",
+      "rank": 1,
+      "grounding_score": 2,
+      "note": "Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.",
+      "chunk_id": "19dc169ceea9420d357c108137dcedf9ca00763a6e9641a7ff26627ca2d6b43b"
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q19",
+      "rank": 2,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "8bb00bdcbef12d55e3c7654a7c2eab34b4641c112d7dd891f4d6eacf8179cbba"
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q19",
+      "rank": 3,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "5b5640774bec06eef72ffa05fb179fb982d4324a8897cb094896118f3a438a79"
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q20",
+      "rank": 1,
+      "grounding_score": 2,
+      "note": "Chunk chứa nguyên văn evidence gold và đúng vị trí nguồn.",
+      "chunk_id": "2b1bad91ea2f27de2eb531c22df5a943e79aae98a0117eff3f290f1abdf94075"
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q20",
+      "rank": 2,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "4f8b42e4cf6cf80bc1d9a27467eaabc0653a0ce14e86c262fd46f9955746a953"
+    },
+    {
+      "strategy": "paragraph-filter-v1",
+      "question_id": "q20",
+      "rank": 3,
+      "grounding_score": 0,
+      "note": "Không thấy evidence đủ liên quan để hỗ trợ đáp án.",
+      "chunk_id": "5c21d75af9fe14e7e5469d887a3ba96facad559a121038af3def66575a59c877"
+    }
+  ],
+  "summary": {
+    "fixed-v1": {
+      "coherence_n": 10,
+      "coherence_avg_2": 1.7,
+      "metadata_correct_n": 15,
+      "metadata_total": 15,
+      "filter_compliant_n": 0,
+      "filter_checked_n": 0,
+      "grounding_test_question_levels": {
+        "0": 0,
+        "1": 1,
+        "2": 4
+      },
+      "grounding_avg_2": 1.8
+    },
+    "paragraph-v1": {
+      "coherence_n": 10,
+      "coherence_avg_2": 2.0,
+      "metadata_correct_n": 15,
+      "metadata_total": 15,
+      "filter_compliant_n": 0,
+      "filter_checked_n": 0,
+      "grounding_test_question_levels": {
+        "0": 0,
+        "1": 0,
+        "2": 5
+      },
+      "grounding_avg_2": 2.0
+    },
+    "paragraph-filter-v1": {
+      "coherence_n": 10,
+      "coherence_avg_2": 2.0,
+      "metadata_correct_n": 15,
+      "metadata_total": 15,
+      "filter_compliant_n": 3,
+      "filter_checked_n": 3,
+      "grounding_test_question_levels": {
+        "0": 0,
+        "1": 0,
+        "2": 5
+      },
+      "grounding_avg_2": 2.0
+    }
+  }
+}
